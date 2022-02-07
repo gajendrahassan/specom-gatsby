@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+
+@import url('https://api.fontshare.com/css?f[]=clash-display@200,300,400,500,600,700,1&display=swap');
+
+body {
+    font-family: 'Clash Display', sans-serif !important;
+    background-color: #111314 !important;
+}
+
+.sc{
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.sc:hover {
+
+    background-color: #B8DBDF;
+
+}
+.sc:hover  .sicon {
+
+    color: #111314;
+} 
+
+@tailwind utilities;
