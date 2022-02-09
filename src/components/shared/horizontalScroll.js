@@ -10,10 +10,10 @@ const DynamicHeightContainer = styled.div.attrs(({ dynamicHeight }) => ({
 
 const HorizontalObjectContainer = styled.div`
   position: sticky;
-  top: 0;
-  height: 100vh;
+  top: 25%;
+  /* height: 100vh; */
   width: 100%;
-  background-color: lightcyan;
+  background-color: #111314;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -37,7 +37,7 @@ const calcDynamicHeight = objectWidth => {
 };
 
 const setDynamicHeight = (ref, dispatch) => {
-  const objectWidth = ref.current.scrollWidth;
+  const objectWidth = ref?.current?.scrollWidth;
   dispatch({ type: "SET_OBJECT_WIDTH", objectWidth });
   const dynamicHeight = calcDynamicHeight(objectWidth);
   dispatch({ type: "SET_DYNAMIC_HEIGHT", dynamicHeight });
@@ -45,7 +45,7 @@ const setDynamicHeight = (ref, dispatch) => {
 
 const applyScrollListener = (dispatch, containerRef) => {
   window.addEventListener("scroll", () => {
-    const offsetTop = containerRef.current.offsetTop;
+    const offsetTop = containerRef?.current?.offsetTop;
     dispatch({ type: "SET_DELTA_X_OFFSET_TOP", offsetTop });
   });
 };

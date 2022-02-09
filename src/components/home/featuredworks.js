@@ -5,6 +5,7 @@ export default function Featuredworks() {
 
 
  const SampleCard = styled.div`
+ background: url('https://cdn.pixabay.com/photo/2021/01/23/18/40/child-5943323__340.jpg');
   position: relative;
   height: 300px;
   width: 500px;
