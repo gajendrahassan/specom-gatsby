@@ -9,7 +9,7 @@ export default function Employe({name, desc, desgnition, reverse}) {
     <div className='grid grid-cols-3 gap-x-5 mb-10'>
 <div className='flex items-end'>
     {reverse && <p className='text-brandColor transform translate-y-8'>{desc}</p>
-}
+ }
 </div>
 <div className='h-[400px] bg-black relative'>
 <p className='text-brandColor text-md opacity-60 transform -translate-y-7'>{desgnition}</p>

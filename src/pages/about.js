@@ -6,7 +6,7 @@ import About from '../components/about'
 const AboutPage = () => {
   return (
     <main>
-      <title>About </title>
+      <title>About Us </title>
 <About/>
     </main>
   )
