@@ -8,6 +8,7 @@ const IndexPage = () => {
     <main>
       <title>Home Page</title>
 <Home/>
+
     </main>
   )
 }

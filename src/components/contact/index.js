@@ -11,7 +11,7 @@ export default function index() {
 <br/>
 <div className='grid grid-cols-2 gap-x-8 container mx-auto w-[80%]'>
   <div className=' bg-black'>
-    <img src="" alt=""/>
+    {/* <img src="" alt=""/> */}
   </div>
   <div>
     <ContactForm/>

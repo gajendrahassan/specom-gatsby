@@ -42,7 +42,7 @@ Super Projects
         return <>
         <div className='col-span-7'>
             <p className='text-brandColor mb-2'>{item.title}</p>
-<div className={` w-[${item.perc}] h-1 bg-white rounded-full`}/>
+<div style={{width:item.perc}} className={` h-1 bg-white rounded-full`}/>
 <br/>
 
 </div>

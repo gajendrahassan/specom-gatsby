@@ -8,11 +8,7 @@ export default function ContactForm() {
         console.log(values);
     }
 
-    const handleChange = (values) => {
 
-        console.log(values);
-
-    }
 
   return (
     <ContactFormWrap>
@@ -61,9 +57,10 @@ textarea, input {
 button{
 
     padding: 0.5rem 7rem;
-    color: blck;
+    color: block;
     background: white;
     border: 1px solid white;
+  
     border-radius:1rem;
     font-weight:600;
 
