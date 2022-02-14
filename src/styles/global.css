@@ -6,6 +6,7 @@
 body {
     font-family: 'Clash Display', sans-serif !important;
     background-color: #111314 !important;
+    overflow-x: hidden !important;
 }
 
 .sc{
@@ -21,5 +22,21 @@ body {
 
     color: #111314;
 } 
+.slick-dots{
+    margin-bottom: -1rem !important;
+}
+.slick-dots li button:before{
+
+    color:rgba(255, 255, 255, 0.575) !important;
+}
+
+.slick-dots li.slick-active button:before{
+    color: antiquewhite !important;
+}
+/* .slick-dots button::before{
+
+    background-color: antiquewhite;
+    border-radius: 5px;
+} */
 
 @tailwind utilities;

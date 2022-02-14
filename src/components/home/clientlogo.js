@@ -12,6 +12,8 @@ export default function Clientlogo() {
 ]
 
   return <div className='container w-[90%] mx-auto'>
+    <br/>
+    <br/>
       <h2 className='text-center text-brandColor text-3xl font-bold tracking-[1.3px]'>We are blessed to work <br/> with leading brands.</h2>
   <br/>
   <br/>
@@ -33,6 +35,6 @@ logoData.map((item, i) =>{
   }
   </div>
   <br/>
-  <br/>
+  <br/><br/>
   </div>;
 }

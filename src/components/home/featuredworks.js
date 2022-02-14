@@ -1,6 +1,7 @@
 import React from 'react';
 import HorizontalScroll from '../shared/horizontalScroll'
 import styled from 'styled-components'
+import { Link } from 'gatsby';
 export default function Featuredworks() {
 
 
@@ -17,7 +18,7 @@ export default function Featuredworks() {
 const SampleCards = React.memo(() =>
   Array(5)
     .fill(0)
-    .map((_e, i) => <SampleCard key={`sampleCard-${i}`} />)
+    .map((_e, i) => <Link to='/project'> <SampleCard key={`sampleCard-${i}`} /></Link>)
 );
 
 

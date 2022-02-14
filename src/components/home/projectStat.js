@@ -30,7 +30,7 @@ export default function ProjectStat() {
 <h4 className='text-brandColor font-semibold'>Skills</h4>
 <hr className='w-[8%]'/>
 <br/>
-<h1 className='text-5xl text-white font-medium'>Our Skills for <br/>
+<h1 className='text-5xl text-white font-lighter tracking-widest'>Our Skills for <br/>
 Super Projects
 </h1> <br/>
 

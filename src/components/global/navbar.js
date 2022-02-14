@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { VscMenu } from "react-icons/vsc";
 import Socialmedia from '../shared/socialmedia';
 import Navlinks from './navlinks';
-
+import { Link } from 'gatsby'
 export default function Navbar() {
 
   const [open, setOpen] = useState(false)
@@ -18,7 +18,10 @@ export default function Navbar() {
   <Socialmedia/>
 </div>
 <div>
-  <h2 className=' text-center cursor-pointer text-brandColor text-2xl'>Tronic</h2>
+  <h2 className=' text-center font-extrabold tracking-widest cursor-pointer text-brandColor text-3xl'>
+   <Link  to='/'>
+   Tronic
+     </Link> </h2>
 </div>
 <div className="flex justify-end items-center">
   <VscMenu onClick={handleOpen} className=' text-right cursor-pointer text-brandColor text-3xl'/>
