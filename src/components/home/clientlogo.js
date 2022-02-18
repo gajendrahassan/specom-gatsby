@@ -23,14 +23,14 @@ export default function Clientlogo() {
   </div>
   <br/>
   <br/>
-  <br/>
-  <br/>
-<div className=' grid grid-cols-5 gap-x-12 w-[70%] mx-auto'>
+  <br className='sm:block hidden'/>
+  <br className='sm:block hidden'/>
+<div className=' grid sm:grid-cols-5 grid-cols-2  gap-x-12 sm:w-[70%] mx-auto'>
   {
 
 logoData.map((item, i) =>{
 
-    return <img className='cols-span-1 w-[90%] block m-auto' key={i} src={item} alt="logo"/>
+    return <img className='cols-span-1 w-[90%] my-2 block m-auto' key={i} src={item} alt="logo"/>
 })
   }
   </div>

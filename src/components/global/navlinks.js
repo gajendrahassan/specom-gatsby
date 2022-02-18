@@ -33,7 +33,7 @@ const navData = [{
     navData.map((item, i)=>{
 
         return <Link to={item.path} key={i}>
-           <h4 style={{transition:'0.3s'}} className='text-6xl hover:bg-brandColor hover:text-bgColor border-[#53525249] border-t-[1px] w-full tracking-[1.3] text-center text-brandColor font-bold p-5'>{item.title}</h4> 
+           <h4 style={{transition:'0.3s'}} className='sm:text-6xl text-4xl hover:bg-brandColor hover:text-bgColor border-[#53525249] border-t-[1px] w-full tracking-[1.3] text-center text-brandColor font-bold p-5'>{item.title}</h4> 
         </Link>
     })
 }

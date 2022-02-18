@@ -7,12 +7,9 @@ export default function About() {
         <hr className='mx-auto w-[10%]'/>
         <br/>
         <br/>
-        <h6 className='text-brandColor opacity-80 text-cenetr'>lorem dummy text lorem dummy text lorem dummy textlorem dummy text
-        lorem dummy text lorem dummy text lorem dummy text lorem dummy text lorem dummy text
-        lorem dummy text lorem dummy text lorem dummy text lorem dummy text lorem dummy text lorem dummy text 
-        lorem dummy text lorem dummy text lorem dummy text lorem dummy textlorem dummy textlorem dummy text lorem dummy text
-        lorem dummy text lorem dummy text lorem dummy text lorem dummy text lorem dummy textlorem dummy text
-
+        <h6 className='text-[#ffffff] text-2xl opacity-80 text-cenetr'>
+       <b className=' font-extrabold text-[#f89553] underline'>SPECOM</b>  is one of the bulging company that will helps other 
+organizations to transform into digital enterprises.
         </h6>
         <br/>
         <br/>

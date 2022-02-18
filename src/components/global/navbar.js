@@ -12,9 +12,9 @@ export default function Navbar() {
     setOpen(!open)
   }
 
-  return <><nav className=' sticky top-0 bg-[#111314] p-4 grid grid-cols-3 justify-between items-center'>
+  return <><nav className='z-20 sticky top-0 bg-[#111314] p-4 flex sm:grid grid-cols-3 justify-between items-center'>
 
-<div className='flex justify-start items-center '>
+<div className='sm:flex hidden justify-start items-center '>
   <Socialmedia/>
 </div>
 <div>

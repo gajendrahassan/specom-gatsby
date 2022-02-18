@@ -15,28 +15,28 @@ export default function index() {
     <Header/>
     <Clientlogo/>
     <br/>
-    <br/>
+    <br className='sm:block hidden'/>
     <Featuredworks/>
     <br/>
-    <br/>
+    <br className='sm:block hidden'/>
 
     <Experience/>
     <br/>
     <br/>
-    <br/>
-    <br/>
+    <br className='sm:block hidden'/>
+    <br className='sm:block hidden'/>
     <ClientStat/>
     <br/>
-    <br/> <br/>
-    <br/>
+    <br/> <br className='sm:block hidden'/>
+    <br className='sm:block hidden'/>
   <br/>
-  <br/>
+  <br className='sm:block hidden'/>
 
     <ProjectStat/>
     <br/>
     <br/>
-    <br/>
-    <br/>
+    <br className='sm:block hidden'/>
+    <br className='sm:block hidden'/>
     <div className='bg-[#0f0f0f] py-5'>
     <ReadyToTalk/>
     </div>

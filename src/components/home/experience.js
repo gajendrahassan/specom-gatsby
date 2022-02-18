@@ -29,7 +29,7 @@ export default function Experience() {
 <br/>
 
 
-<div className='grid grid-cols-3 gap-x-8 '>
+<div className='sm:grid hidden grid-cols-3 gap-x-8 '>
     <div className='col-span-1 bg-[#202020] p-3 rounded'>
        <Card title="title" path="/more" desc="description" Icon="1"/> 
     </div>
@@ -45,11 +45,11 @@ export default function Experience() {
 
 </div>
 <br/>
-<div className='grid grid-cols-3 gap-x-8 '>
+<div className='grid sm:grid-cols-3 grid-cols-1 gap-x-8 gap-y-4 '>
     <div className='col-span-1 bg-[#202020] p-3 rounded'>
        <Card title="title" path="/more" desc="description" Icon="1"/> 
     </div>
-    <div className='col-span-1 bg-[#202020] p-3 bg-center rounded bg-[url(https://cdn.pixabay.com/photo/2021/01/23/18/40/child-5943323__340.jpg)]' >
+    <div className='col-span-1 h-[250px] sm:h-full bg-[#202020] p-3 bg-center rounded bg-[url(https://cdn.pixabay.com/photo/2021/01/23/18/40/child-5943323__340.jpg)]' >
     {/* <Card title="title" path="/more" desc="description" Icon="2"/>  */}
 
     </div>

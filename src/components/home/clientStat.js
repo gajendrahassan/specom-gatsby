@@ -19,15 +19,14 @@ export default function ClientStat() {
   return () => window.removeEventListener('scroll', updatePosition)
  }, [state])
 
-console.log(scrollPosition);
   return (
-    <div ref={ref} className=' container mx-auto w-[80%] '>
-<h2 className='text-brandColor text-2xl font-bold '>Our Client </h2>
+    <div ref={ref} className=' container mx-auto sm:w-[80%] '>
+<h2 className='text-brandColor text-center sm:text-left text-2xl font-bold '>Our Client </h2>
 
-<hr/>
+<hr className='w-[10%] mx-auto sm:w-full'/>
 <br/>
 <br/>
-{ (scrollPosition > 3800) && <div className='flex justify-around items-center'>
+{ (scrollPosition > 3800) && <div className=' grid grid-cols-2 gap-y-4 sm:flex justify-around items-center'>
   <div  className='flex justify-center items-center gap-x-5'>
       <div>
 

@@ -4,9 +4,10 @@ import Socialmedia from '../shared/socialmedia';
 export default function Footer() {
   return <div className=' bg-black w-full'>
 
-<div className='grid grid-cols-2 gap-x-4 container mx-auto w-[80%] p-6'>
-  <div>
+<div className='grid grid-cols-2 gap-x-4 container mx-auto sm:w-[80%] p-6'>
+  <div className=''>
     <h5 className='text-xl font-semibold text-brandColor'>Tronic</h5>
+    <br className='sm:hidden'/>
     <h6 className='text-md text-brandColor'>Award winning web designer <br/>
     street 11 california USA 
     </h6>

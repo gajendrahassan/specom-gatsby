@@ -6,9 +6,10 @@ import Slider from './slider';
 export default function index() {
   return <main>
     <Navbar/>
-<br/>
-<br/>
+<br className='sm:block hidden'/>
+<br className='sm:block hidden'/>
 <Slider/>
+<br/>
 <br/>
 <br/>
 <Footer/>

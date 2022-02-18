@@ -12,8 +12,8 @@ export default function ContactForm() {
 
   return (
     <ContactFormWrap>
-        <h2 className='text-brandColor '>Contact Us</h2>
-        <hr className='w-[17%]'/>
+        <h2 className='text-brandColor sm:text-left text-center '>Contact Us</h2>
+        <hr className='w-[17%] sm:mx-0.5  mx-auto'/>
       
       <br/>
       <input name="name" type='text'/>

@@ -25,7 +25,7 @@ const data = [
   return (
     <div className='container mx-auto w-[80%]'>
         <br/>
-<h1 className='text-6xl  text-brandColor tracking-wider font-light '>From Tokiyo to saigon <br/>
+<h1 className='sm:text-6xl text-3xl text-brandColor tracking-wider font-light '>From Tokiyo to saigon <br/>
 We Come from All <br/> over the World
 </h1>
 <br/>
