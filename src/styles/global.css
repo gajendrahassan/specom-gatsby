@@ -38,5 +38,25 @@ body {
     background-color: antiquewhite;
     border-radius: 5px;
 } */
+/* 
+.child {
+
+    display: none;
+}
+
+.parent:hover ~ .child {
+
+    display: block
+} */
+
+/* .mchild {
+     
+    display: none;
+}
+
+.nchild:hover  .mchild {
+
+    display:block;
+} */
 
 @tailwind utilities;

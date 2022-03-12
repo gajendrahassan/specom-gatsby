@@ -35,6 +35,27 @@ logoData.map((item, i) =>{
   }
   </div>
   <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+<div className='grid grid-cols-2 gap-x-5 w-[60%] mx-auto'>
+
+<div className='col-span-1'>
+  <img src="https://cdn.pixabay.com/photo/2017/08/10/08/47/laptop-2620118_960_720.jpg" alt="" className="h-[500px] w-full object-cover rounded" />
+</div>
+<div className='relative'>
+
+  <h6 className="text-white text-md w-[50%] mx-auto text-left absolute top-[-10%] left-[16%]">
+
+  Culpa dolor consectetur amet commodo eiusmod occaecat in quis consectetur dolore aliqua aliqua culpa laboris. Labore ad duis eu cillum laboris dolore consequat id aliquip pariatur. Ullamco irure ipsum irure aliquip laboris sint nisi. Fugiat reprehenderit culpa exercitation fugiat.
+  </h6>
+</div>
+
+
+</div>
+
+  <br/>
   <br/><br/>
   </div>;
 }

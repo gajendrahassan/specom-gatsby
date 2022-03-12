@@ -10,8 +10,8 @@ const DynamicHeightContainer = styled.div.attrs(({ dynamicHeight }) => ({
 
 const HorizontalObjectContainer = styled.div`
   position: sticky;
-  top: 25%;
-  /* height: 100vh; */
+  top: 24%;
+  /* height: 60vh; */
   width: 100%;
   background-color: #111314;
   display: flex;

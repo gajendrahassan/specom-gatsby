@@ -1,0 +1,51 @@
+[
+
+    {
+
+        "title":"Our BPO Services",
+        "slug":"bpo-services",
+        "head_back_image":"../images/background.jpg",
+        "services_back_image":"../images/background.jpg",
+        "featured_data": {
+            "title":"Feature Title",
+            "sub_title":"Sub Title",
+             "featured_img":"../images/featured.jpg",
+             "desc":"Lmao stands for laughing my ass off. Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off."
+
+        },
+       
+        "bpo_services":[
+            {
+                "title":"Chat Support",
+                "sub_title":"Quality",
+                "desc":"Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off."
+            },
+            {
+                "title":"Chat Support",
+                "sub_title":"Quality",
+                "desc":"Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off."
+            },
+            {
+                "title":"Chat Support",
+                "sub_title":"Quality",
+                "desc":"Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off."
+            },
+            {
+                "title":"Chat Support",
+                "sub_title":"Quality",
+                "desc":"Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off."
+            },
+            {
+                "title":"Chat Support",
+                "sub_title":"Quality",
+                "desc":"Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off."
+            },
+            {
+                "title":"Chat Support",
+                "sub_title":"Quality",
+                "desc":"Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off."
+            }
+        ]
+    
+    }
+]

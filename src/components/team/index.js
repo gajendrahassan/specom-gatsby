@@ -4,7 +4,7 @@ import Footer from '../global/footer';
 import Team from './team';
 
 export default function index() {
-  return <main>
+  return <main >
     <Navbar/>
     <br/>
     <br/>

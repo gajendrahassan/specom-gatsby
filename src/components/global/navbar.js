@@ -12,7 +12,7 @@ export default function Navbar() {
     setOpen(!open)
   }
 
-  return <><nav className='z-20 sticky top-0 bg-[#111314] p-4 flex sm:grid grid-cols-3 justify-between items-center'>
+  return <div className='container mx-auto' ><nav className='z-20 sticky top-0 bg-[#111314] p-4 flex sm:grid grid-cols-3 justify-between items-center'>
 
 <div className='sm:flex hidden justify-start items-center '>
   <Socialmedia/>
@@ -31,6 +31,6 @@ export default function Navbar() {
 { open &&  <Navlinks handleOpen={handleOpen} />
 } 
 
- </>
+ </div>
   ;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../global/footer';
-import Navbar from '../global/navbar';
+import Navbar from '../global/navbar2';
 import ReadyToTalk from '../shared/readyToTalk';
 import Clientlogo from './clientlogo';
 import ClientStat from './clientStat';
@@ -10,7 +10,7 @@ import Header from './header';
 import ProjectStat from './projectStat';
 
 export default function index() {
-  return <main className='container mx-auto'>
+  return <main >
     <Navbar/>
     <Header/>
     <Clientlogo/>
