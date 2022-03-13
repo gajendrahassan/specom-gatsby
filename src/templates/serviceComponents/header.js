@@ -5,7 +5,8 @@ export default function Header({title, imge}) {
 
   return (
     <HeaderWrap style={{backgroundImage:`url(${imge})`}} className={`header  bg-cover  h-[300px]`}>
-  <div className=' title container mx-auto flex items-center h-[100%]'>
+ 
+  <div className=' title container mx-auto flex items-center w-[80%] h-[100%]'>
 <div>
 <h2 className='text-4xl font-semibold uppercase tracking-wider text-white'>{title}</h2>
 <hr className='h-[5px] mt-3 rounded-full w-[70%] bg-[#ffffff]'/>

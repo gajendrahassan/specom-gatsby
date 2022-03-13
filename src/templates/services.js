@@ -7,6 +7,7 @@ import Feature from "./serviceComponents/feature"
 import CoreService from "./serviceComponents/coreService"
 import Navbar2 from "../components/global/navbar2"
 import Footer from "../components/global/footer"
+
 import OtherServices from "./serviceComponents/otherServices"
 const ProjectDetails = ({ data }) => {
   // const { html } = data.markdownRemark
@@ -22,7 +23,7 @@ const ProjectDetails = ({ data }) => {
         <Header title={title} imge={head_back_image.childImageSharp.fluid.src}  />
        <br/>
         <br/>
-        <div className=" container mx-auto" >
+        <div className=" container mx-auto w-[80%]" >
          <Feature data={featured_data} imge={featured_data.featured_img.childImageSharp.fluid} />
    
         </div>

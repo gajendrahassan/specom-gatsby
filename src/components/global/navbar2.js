@@ -32,7 +32,7 @@ const handleLeave = () =>{
    }
   return (
     <nav className=' shadow-md bg-[#111314] py-4 sticky top-0 z-20'>
-     <div className=' flex justify-between items-center container mx-auto '>
+     <div className=' flex justify-between items-center container mx-auto w-[90%]'>
      <div className="logo">
          <h1 className='text-2xl font-bold text-white'>LOGO</h1>
      </div>
