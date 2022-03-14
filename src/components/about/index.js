@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../global/footer';
-import Navbar from '../global/navbar';
+import Navbar from '../global/navbar2';
 import ReadyToTalk from '../shared/readyToTalk';
 import About from './about';
 import Vm from './vm';

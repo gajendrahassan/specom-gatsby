@@ -21,7 +21,6 @@ export default function Featuredworks() {
    }, [state])
 
 
-   console.log({scrollPosition});
 
  const SampleCard = styled.div`
  background: url('https://cdn.pixabay.com/photo/2021/01/23/18/40/child-5943323__340.jpg');

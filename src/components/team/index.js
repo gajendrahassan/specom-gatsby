@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../global/navbar';
+import Navbar from '../global/navbar2';
 import Footer from '../global/footer';
 import Team from './team';
 

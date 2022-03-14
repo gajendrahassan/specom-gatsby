@@ -38,7 +38,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   support.allSupportJson.edges.forEach(edge => {
     actions.createPage({
-      path: '/development/'+ edge.node.slug,
+      path: '/services/'+ edge.node.slug,
       component: path.resolve('./src/templates/development.js'),
       context: { slug: edge.node.slug }
     })

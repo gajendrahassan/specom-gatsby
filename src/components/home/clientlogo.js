@@ -11,7 +11,7 @@ export default function Clientlogo() {
 
 ]
 
-  return <div className='container w-[90%] mx-auto'>
+  return <div className='container  mx-auto'>
     <br/>
     <br/>
       <h2 className='text-center text-brandColor text-3xl font-bold tracking-[1.3px]'>We are blessed to work <br/> with leading brands.</h2>

@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import {Link} from 'gatsby'
 import {data} from './data'
 import {AiFillCaretRight} from 'react-icons/ai'
 export default function Navbar2() {
@@ -20,11 +21,13 @@ export default function Navbar2() {
     setState(title)
 
    } 
- const handleHoverC = () =>{
+ const handleHoverC = (title) =>{
 
-    setCState(true)
+      setCState(title)
 
    }
+
+
 const handleLeave = () =>{
 
     (state != 'BPO Services' && state != 'Software Development' && state != 'Import Export') && setCState(false)
@@ -43,18 +46,21 @@ const handleLeave = () =>{
     data.map((item, i)=>{
 
         return <> 
-        
-        <li onMouseOver={handleHoverC} className='text-[#bbbbbb] hover:text-[#ebebeb] relative parent  hover:underline cursor-pointer font-medium tracking-wider  text-xl' key={i}>{item.title} </li>
+        <Link to={item?.path}>
+        <li onMouseOver={()=>handleHoverC(item?.title)} className='text-[#bbbbbb] hover:text-[#ebebeb] relative parent  hover:underline cursor-pointer font-medium tracking-wider  text-xl' key={i}>
+          {item.title} </li> </Link> 
                  <ul onMouseLeave={handleLeave} className='m-0 w-[240px] rounded child   bg-gray-300 absolute top-[95%]  transform translate-x-12'>{
-                     cstate && item?.child?.map((citem, k)=>{
+                     (cstate == 'Services') && item?.child?.map((citem, k)=>{
 
-                        return <> <li onMouseOver={()=>handleHover(citem?.title)} className={`px-4 py-1 ${(state == citem?.title) ? 'bg-[#000000] text-[#d6d5d5]' : '' }  text-md cursor-pointer font-medium flex items-center justify-between  relative`} key={k}>{citem?.title} {citem?.child?.length > 0 ? <AiFillCaretRight className='text-[14px]'/> : ''}  </li>
+                        return <><Link to={citem?.path}>  <li onMouseOver={()=>handleHover(citem?.title)} className={`px-4 py-1 ${(state == citem?.title) ? 'bg-[#000000] text-[#d6d5d5]' : '' }  text-md cursor-pointer font-medium flex items-center justify-between  relative`} key={k}>
+                            {citem?.title} {citem?.child?.length > 0 ? <AiFillCaretRight className='text-[14px]'/> : ''}  </li></Link>
 
                       <ul className={`w-[210px]  ${(state == 'BPO Services') ? 'top-[0%]' : 'top-[19%]'} rounded   bg-gray-300 absolute left-[102%]`}>
                             {
                              (state == citem?.title) &&  citem?.child?.map((nitem, n)=>{
 
-                                    return <li className='px-4 py-1 font-medium text-md nchild cursor-pointer hover:bg-[#000000] hover:text-[#d6d5d5]' key={n}>{nitem?.title}</li>
+                                    return <Link to={nitem?.path}>  <li className='px-4 py-1 font-medium text-md nchild cursor-pointer hover:bg-[#000000] hover:text-[#d6d5d5]' key={n}>
+                                       {nitem?.title}</li></Link>
                                 })
                             }
                         </ul>

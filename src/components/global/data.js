@@ -8,36 +8,36 @@
         },
          {
             title:'Services',
-            path:'#',
+            path:'/services',
             child:[
                 {
                     title:'BPO Services',
-                    path:'#',
+                    path:'/services/bpo-services',
                     child:[
                         {
                              title:'Chat Support',
-                                path:'/chat-support',
+                                path:'/services/chat-support',
                         },
                         {
                             title:'Email Support',
-                               path:'/email-support',
+                               path:'/services//email-support',
                        }, {
                             title:'Call Support',
-                               path:'call-support',
+                               path:'/services/call-support',
                        },
                         {
                             title:'Back Office Support',
-                               path:'back-office-sipport',
+                               path:'/services/back-office-sipport',
                        },
                     {
                             title:'Customer Support',
-                               path:'customer-support',
+                               path:'/services/customer-support',
                        },{
                             title:'Data Entry',
-                               path:'data-entry',
+                               path:'/services/data-entry',
                        },{
                             title:'Medical Billing',
-                               path:'medical-billing',
+                               path:'/services/medical-billing',
                        }
                     ]
                 },  
@@ -49,61 +49,61 @@
                     child:[
                         {
                              title:'App Development',
-                                path:'/app-development',
+                                path:'/services/app-development',
                         },
                         {
                             title:'Web Development',
-                               path:'/web-development',
+                               path:'/services/web-development',
                        },
                         {
                             title:'Ecommerce Website',
-                               path:'/ecommerce-website',
+                               path:'/services/ecommerce-website',
                        },
                         {
                             title:'AI & ML',
-                               path:'/ai-ml',
+                               path:'/services/ai-ml',
                        },
                         {
                             title:'IOT',
-                               path:'/iot',
+                               path:'/services/iot',
                        }
                     ]
                 }, {
 
                     title:'Import Export',
-                    path:'/import-export',
+                    path:'/services/import-export',
                     child:[]
                 }, {
 
                     title:'ISO Certification',
-                    path:'/iso-certification',
+                    path:'/services/iso-certification',
                     child:[]
                 },{
 
                     title:'Automation excel',
-                    path:'/automation-excel',
+                    path:'/services/automation-excel',
                     child:[  ]
                 },
             ]
 
         },  {
             title:'Careers',
-            path:'/',
+            path:'/careers',
             child:[]
 
         },  {
             title:'Team',
-            path:'/',
+            path:'/team',
             child:[]
 
         },  {
             title:'About Us',
-            path:'/',
+            path:'/about',
             child:[]
 
         },{
             title:'Contact Us',
-            path:'/',
+            path:'/contact',
             child:[]
 
         },

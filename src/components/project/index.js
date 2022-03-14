@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../global/footer'
-import Navbar from '../global/navbar'
+import Navbar from '../global/navbar2'
 import Project from './project'
 
 export default function index() {
