@@ -3,7 +3,7 @@ import React from 'react'
 export default function CoreService({data}) {
   return (
 
-    <div className='grid grid-cols-3 gap-12 p-5 container mx-auto relative'>
+    <div className='grid grid-cols-1 sm:grid-cols-3 gap-12 p-5 container mx-auto relative'>
         {
             data.map((item, i)=>{
 

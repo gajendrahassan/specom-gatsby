@@ -6,6 +6,9 @@ import About from './about';
 import Vm from './vm';
 
 export default function index() {
+
+
+
   return <main>
 
 <Navbar/>

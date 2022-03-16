@@ -8,7 +8,7 @@ export default function Header({title, imge}) {
  
   <div className=' title container mx-auto flex items-center w-[80%] h-[100%]'>
 <div>
-<h2 className='text-4xl font-semibold uppercase tracking-wider text-white'>{title}</h2>
+<h2 className='sm:text-4xl text-3xl font-semibold uppercase tracking-wider text-white'>{title}</h2>
 <hr className='h-[5px] mt-3 rounded-full w-[70%] bg-[#ffffff]'/>
 </div>
   </div>

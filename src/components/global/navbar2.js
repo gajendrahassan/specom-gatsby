@@ -2,6 +2,9 @@ import React, {useState} from 'react'
 import {Link} from 'gatsby'
 import {data} from './data'
 import {AiFillCaretRight} from 'react-icons/ai'
+import {useMedia} from 'react-use';
+import NavBar from './navbar'
+
 export default function Navbar2() {
 
   const [state, setState ] = useState();
@@ -9,7 +12,7 @@ export default function Navbar2() {
   const [cstate, setCState ] = useState();
 
 
-  console.log( cstate);
+  const isWide = useMedia('(min-width: 680px)');
 
 
 
@@ -33,8 +36,8 @@ const handleLeave = () =>{
     (state != 'BPO Services' && state != 'Software Development' && state != 'Import Export') && setCState(false)
 
    }
-  return (
-    <nav className=' shadow-md bg-[#111314] py-4 sticky top-0 z-20'>
+  return (<>
+ {isWide ?  <nav className=' shadow-md bg-[#111314] py-4 sticky top-0 z-20'>
      <div className=' flex justify-between items-center container mx-auto w-[90%]'>
      <div className="logo">
          <h1 className='text-2xl font-bold text-white'>LOGO</h1>
@@ -83,6 +86,8 @@ const handleLeave = () =>{
 
     
      </div>
-    </nav>
+    </nav> : <NavBar/>
+}
+    </>
   )
 }

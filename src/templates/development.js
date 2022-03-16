@@ -19,8 +19,8 @@ export default function Development({ data }) {
       <Header title={title} imge={head_back_image.childImageSharp.fluid.src}  />
   <br/>
         <br/>
-        <br/>
-        <div className='mx-auto container w-[80%]' >
+        <br className=' hidden sm:block'/>
+        <div className='mx-auto container w-[90%] sm:w-[80%]' >
         <Feature data={featured_data} imge={featured_data.featured_img.childImageSharp.fluid} />
         </div>
         

@@ -5,30 +5,30 @@ export default function OtherServices() {
     const data = [{
 
         title:"Title Other",
-        image:"https://cdn.pixabay.com/photo/2021/12/02/12/17/happy-new-year-6840369__340.png",
+        image:"https://cdn.pixabay.com/photo/2022/03/01/20/58/peace-genius-7042013_960_720.jpg",
         desc: ` Consectetur odio, ratione corrupti repudiandae dolorum ea voluptatem quis soluta et tenetur mollitia sit, hic eligendi ex libero repellendus minima! Est, optio.`
     }, 
     {
 
         title:"Title Other",
-        image:"https://cdn.pixabay.com/photo/2021/12/02/12/17/happy-new-year-6840369__340.png",
+        image:"https://cdn.pixabay.com/photo/2022/03/01/20/58/peace-genius-7042013_960_720.jpg",
         desc: ` Consectetur odio, ratione corrupti repudiandae dolorum ea voluptatem quis soluta et tenetur mollitia sit, hic eligendi ex libero repellendus minima! Est, optio.`
     }, 
     {
 
         title:"Title Other",
-        image:"https://cdn.pixabay.com/photo/2021/12/02/12/17/happy-new-year-6840369__340.png",
+        image:"https://cdn.pixabay.com/photo/2022/03/01/20/58/peace-genius-7042013_960_720.jpg",
         desc: ` Consectetur odio, ratione corrupti repudiandae dolorum ea voluptatem quis soluta et tenetur mollitia sit, hic eligendi ex libero repellendus minima! Est, optio.`
     }, 
     {
 
         title:"Title Other",
-        image:"https://cdn.pixabay.com/photo/2021/12/02/12/17/happy-new-year-6840369__340.png",
+        image:"https://cdn.pixabay.com/photo/2022/03/01/20/58/peace-genius-7042013_960_720.jpg",
         desc: ` Consectetur odio, ratione corrupti repudiandae dolorum ea voluptatem quis soluta et tenetur mollitia sit, hic eligendi ex libero repellendus minima! Est, optio.`
     }]
 
   return (
-    <div className='grid grid-cols-4 gap-12 p-5 container mx-auto relative'>
+    <div className='grid grid-cols-1 sm:grid-cols-4 gap-12 p-5 container mx-auto relative'>
 
         {
             data.map((item, i)=>{

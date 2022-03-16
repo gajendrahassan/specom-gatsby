@@ -2,7 +2,7 @@ import React from 'react'
 import Img from 'gatsby-image'
 export default function Feature({imge, data}) {
   return (
-    <div className='grid grid-cols-2 gap-8'>
+    <div className='grid grid-cols-1  sm:grid-cols-2 gap-8'>
 
         <div>
         <Img fluid={imge} className="h-full" />
