@@ -22,8 +22,8 @@ export default function Fetured() {
               />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">The quick fox</h6>
-          <p className="mb-3 text-sm text-gray-900">
+          <h6 className="mb-2 text-[#dddcdc] font-semibold leading-5">The quick fox</h6>
+          <p className="mb-3 text-sm text-[#a8a7a7] ">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium rem aperiam, eaque ipsa quae. Sit error voluptatem.
           </p>
@@ -46,8 +46,8 @@ export default function Fetured() {
               />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Leverage agile</h6>
-          <p className="mb-3 text-sm text-gray-900">
+          <h6 className="mb-2  text-[#dddcdc] font-semibold leading-5">Leverage agile</h6>
+          <p className="mb-3 text-sm text-[#a8a7a7] ">
             Storage shed, troughs feed bale manure, is garden wheat oats at
             augers. Bulls at rose garden cucumbers mice sunflower wheat in
             pig.
@@ -71,8 +71,8 @@ export default function Fetured() {
               />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Organically grow</h6>
-          <p className="mb-3 text-sm text-gray-900">
+          <h6 className="mb-2 text-[#dddcdc] font-semibold leading-5">Organically grow</h6>
+          <p className="mb-3 text-sm text-[#a8a7a7] ">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium rem aperiam, eaque ipsa quae. Sit error voluptatem.
           </p>
@@ -95,8 +95,8 @@ export default function Fetured() {
               />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Have a good one</h6>
-          <p className="mb-3 text-sm text-gray-900">
+          <h6 className="mb-2 text-[#dddcdc] font-semibold leading-5">Have a good one</h6>
+          <p className="mb-3 text-sm text-[#a8a7a7] ">
             Storage shed, troughs feed bale manure, is garden wheat oats at
             augers. Bulls at rose garden cucumbers mice sunflower wheat in
             pig.
@@ -120,8 +120,8 @@ export default function Fetured() {
               />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Trough pomfret</h6>
-          <p className="mb-3 text-sm text-gray-900">
+          <h6 className="mb-2 text-[#dddcdc] font-semibold leading-5">Trough pomfret</h6>
+          <p className="mb-3 text-sm text-[#a8a7a7] ">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium rem aperiam, eaque ipsa quae. Sit error voluptatem.
           </p>
@@ -144,8 +144,8 @@ export default function Fetured() {
               />
             </svg>
           </div>
-          <h6 className="mb-2 font-semibold leading-5">Disrupt inspire</h6>
-          <p className="mb-3 text-sm text-gray-900">
+          <h6 className="mb-2 text-[#dddcdc] font-semibold leading-5">Disrupt inspire</h6>
+          <p className="mb-3 text-sm text-[#a8a7a7] ">
             Storage shed, troughs feed bale manure, is garden wheat oats at
             augers. Bulls at rose garden cucumbers mice sunflower wheat in
             pig.

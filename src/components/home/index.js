@@ -6,6 +6,7 @@ import Clientlogo from './clientlogo';
 import ClientStat from './clientStat';
 import Experience from './experience';
 import Featuredworks from './featuredworks';
+import Fetured from './fetured';
 import Header from './header';
 import ProjectStat from './projectStat';
 
@@ -29,6 +30,7 @@ export default function index() {
     <br/>
     <br/> <br className='sm:block hidden'/>
     <br className='sm:block hidden'/>
+    <Fetured/>
   <br/>
   <br className='sm:block hidden'/>
 
