@@ -4,19 +4,19 @@ export default function ProjectStat() {
 
     const statdata = [
         {
-            title:"project",
+            title:"Web Development",
             perc:'80%'
         },
         {
-            title:"project",
+            title:"Artificial Intelligence",
             perc:'60%'
         },
         {
-            title:"project",
+            title:"IOT",
             perc:'70%'
         },
         {
-            title:"project",
+            title:"Import & Export",
             perc:'90%'
         },
     ]

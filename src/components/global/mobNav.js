@@ -3,10 +3,10 @@ import {Link} from 'gatsby'
 import {data} from './data'
 import {AiFillCaretRight} from 'react-icons/ai'
 // import NavBar from './navbar'
-import logo from '../../images/logo.png'
-import MobNavbar from './mobNav'
+import  { MdClose } from 'react-icons/md'
+import { VscMenu } from "react-icons/vsc";
 
-export default function Navbar2() {
+export default function MobNavbar() {
 
   const [state, setState ] = useState();
 
@@ -15,6 +15,13 @@ export default function Navbar2() {
 
 
 
+
+  const [open, setOpen] = useState(false)
+
+  const handleOpen = () =>{
+
+    setOpen(!open)
+  }
 
 
 
@@ -36,32 +43,40 @@ const handleLeave = () =>{
     (state != 'BPO Services' && state != 'Software Development' && state != 'Import Export') && setCState(false)
 
    }
-  return (<>
-  <div className='sm:hidden block'>
-  <MobNavbar/>
-  </div>
-  <nav className='hidden sm:block shadow-md bg-[#111314] py-4 sticky top-0 z-20'>
-     <div className=' flex justify-between items-center container mx-auto w-[90%]'>
-     <div className="logo">
-         <img src={logo} className='w-[100px]'/>
-     </div>
+  return (
+      <>
+      <div className='bg-[#111314] p-2 flex items-center justify-between'>
+      <h1 className='text-2xl text-right  font-bold text-white'>LOGO</h1>
+   { open &&   <VscMenu onClick={()=>handleOpen()} className=' font-thin  text-right cursor-pointer text-brandColor text-4xl'/>}
+{  !open &&   <MdClose onClick={()=>handleOpen()} className=' font-thin  text-right cursor-pointer text-brandColor text-4xl'/>
+}
+      </div>
+      
+   { !open &&   <nav className=' shadow-md bg-[#111314] py-4 fixed top-0 z-20 w-[48%]'>
+     <div className=' flex flex-col h-screen justify-start items-start container mx-auto w-[90%]'>
+ 
      <div>
-         <ul className='flex space-x-12'>
+     <div className="logo flex justify-between items-center">
+         <h1 className='text-2xl mb-5 text-left font-bold text-white'>LOGO</h1>
+
+     </div>
+     <br/>
+         <ul className='flex space-y-5 flex-col'>
 
 {
     data.map((item, i)=>{
 
-        return <> 
+        return <div key={i}> 
         <Link to={item?.path}>
         <li onMouseOver={()=>handleHoverC(item?.title)} className='text-[#bbbbbb] hover:text-[#ebebeb] relative parent  hover:underline cursor-pointer font-medium tracking-wider  text-xl' key={i}>
           {item.title} </li> </Link> 
-                 <ul onMouseLeave={handleLeave} className='m-0 w-[240px] rounded child   bg-gray-300 absolute top-[95%]  transform translate-x-12'>{
+                 <ul onMouseLeave={handleLeave} className='m-0 w-[180px] rounded child relative   bg-gray-300 '>{
                      (cstate == 'Services') && item?.child?.map((citem, k)=>{
 
                         return <><Link to={citem?.path}>  <li onMouseOver={()=>handleHover(citem?.title)} className={`px-4 py-1 ${(state == citem?.title) ? 'bg-[#000000] text-[#d6d5d5]' : '' }  text-md cursor-pointer font-medium flex items-center justify-between  relative`} key={k}>
                             {citem?.title} {citem?.child?.length > 0 ? <AiFillCaretRight className='text-[14px]'/> : ''}  </li></Link>
 
-                      <ul className={`w-[210px]  ${(state == 'BPO Services') ? 'top-[0%]' : 'top-[19%]'} rounded   bg-gray-300 absolute left-[102%]`}>
+                      <ul className={`w-[150px]  ${(state == 'BPO Services') ? 'top-[0%]' : 'top-[19%]'} rounded   bg-gray-300 absolute left-[102%]`}>
                             {
                              (state == citem?.title) &&  citem?.child?.map((nitem, n)=>{
 
@@ -78,7 +93,7 @@ const handleLeave = () =>{
 
                  </ul>
                 
-</>
+</div>
  
   
 
@@ -89,7 +104,8 @@ const handleLeave = () =>{
 
     
      </div>
-    </nav> 
+    </nav> }
     </>
+
   )
 }

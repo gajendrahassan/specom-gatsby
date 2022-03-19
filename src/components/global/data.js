@@ -8,7 +8,7 @@
         },
          {
             title:'Services',
-            path:'/services',
+            path:'#',
             child:[
                 {
                     title:'BPO Services',
@@ -20,19 +20,21 @@
                         },
                         {
                             title:'Email Support',
-                               path:'/services//email-support',
+                               path:'/services/email-support',
                        }, {
-                            title:'Call Support',
-                               path:'/services/call-support',
+                            title:'Call Center',
+                               path:'/services/call-center',
                        },
                         {
                             title:'Back Office Support',
-                               path:'/services/back-office-sipport',
+                               path:'/services/back-office',
                        },
                     {
                             title:'Customer Support',
                                path:'/services/customer-support',
-                       },{
+                       },
+                       
+                       {
                             title:'Data Entry',
                                path:'/services/data-entry',
                        },{
@@ -56,8 +58,8 @@
                                path:'/services/web-development',
                        },
                         {
-                            title:'Ecommerce Website',
-                               path:'/services/ecommerce-website',
+                            title:'E-Commerce',
+                               path:'/services/e-commerce-development',
                        },
                         {
                             title:'AI & ML',
@@ -81,7 +83,7 @@
                 },{
 
                     title:'Automation excel',
-                    path:'/services/automation-excel',
+                    path:'/services/automation-and-excel-reporting',
                     child:[  ]
                 },
             ]

@@ -1,16 +1,188 @@
 [
+
+  {
+    "title":"Customer Support",
+    "slug":"customer-support",
+    "head_back_image":"../images/featured.jpg",
+      "featured_data": {
+        "title":"Customer Support",
+        "sub_title":"We Have the Best Services to Grow Your Business.",
+         "featured_img":"../images/featured.jpg",
+         "desc":"We assist customers. These services are characterized as technology vendors and providers that attempt to assist consumers in using goods and services correctly, efficiently, and effectively. Customer service outsourcing might assist your company to supplement its current customer relationships. When you outsource Customer Support Services to Specom BPO Solutions, we can give you valuable insight on unmet requirements, client satisfaction levels, and customer demands. We will also suggest strategies for your company to handle customer concerns and improve customer relationships in addition to this information."
+
+    },
+    "desc":"We assist customers. These services are characterized as technology vendors and providers that attempt to assist consumers in using goods and services correctly, efficiently, and effectively. Customer service outsourcing might assist your company to supplement its current customer relationships. When you outsource Customer Support Services to Specom BPO Solutions, we can give you valuable insight on unmet requirements, client satisfaction levels, and customer demands. We will also suggest strategies for your company to handle customer concerns and improve customer relationships in addition to this information."
+
+
+},
     {
-        "title":"Title Support",
+        "title":"Chat Support",
         "slug":"chat-support",
         "head_back_image":"../images/featured.jpg",
           "featured_data": {
-            "title":"Feature Title",
-            "sub_title":"Sub Title",
+            "title":"Chat Support",
+            "sub_title":"Quality",
              "featured_img":"../images/featured.jpg",
-             "desc":"Lmao stands for laughing my ass off. Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off."
+             "desc":"Are you having a problem in providing your customers with Customized Chat Support at a time that is convenient for them? Are you looking for strategies to reduce your selling costs, improve sales and conversions, and develop a long-term connection with your customers? Then why not take advantage of live Chat Support for your company and create a long-term relationship with your customers? Then it's time to implement live chat assistance for your company."
 
         },
-    "desc":"Lmao stands for laughing my ass off. Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off."
+        "desc":"Are you having a problem in providing your customers with Customized Chat Support at a time that is convenient for them? Are you looking for strategies to reduce your selling costs, improve sales and conversions, and develop a long-term connection with your customers? Then why not take advantage of live Chat Support for your company and create a long-term relationship with your customers? Then it's time to implement live chat assistance for your company."
     
-    }
+    
+    },
+
+    {
+      "title":"Call Center",
+      "slug":"call-center",
+      "head_back_image":"../images/featured.jpg",
+        "featured_data": {
+          "title":"Call Center",
+          "sub_title":"We Have The Best Services To Grow Your Business",
+           "featured_img":"../images/featured.jpg",
+           "desc":"We focus on the development of our clients when providing Call Center Services. We have provided Call Center Outsourcing Services to international clients in the education, insurance, health care, travel, real estate, airlines, and banking industries. We deliver excellent customer service to help you build your brand and remain ahead of the competition."
+
+      },
+      "desc":"We focus on the development of our clients when providing Call Center Services. We have provided Call Center Outsourcing Services to international clients in the education, insurance, health care, travel, real estate, airlines, and banking industries. We deliver excellent customer service to help you build your brand and remain ahead of the competition."
+  
+  },
+  {
+    "title":"Email Support",
+    "slug":"email-support",
+    "head_back_image":"../images/featured.jpg",
+      "featured_data": {
+        "title":"Email Support",
+        "sub_title":"We offer Email support services",
+         "featured_img":"../images/featured.jpg",
+         "desc":"The email has now become the primary means of data transmission and customer relationship management. As a result, many companies are outsourcing their non-voice call center needs, including Email support services. We offer Email support services for technical as well as non-technical products and services."
+
+    },
+    "desc":"The email has now become the primary means of data transmission and customer relationship management. As a result, many companies are outsourcing their non-voice call center needs, including Email support services. We offer Email support services for technical as well as non-technical products and services."
+
+},
+{
+  "title":"Back office",
+  "slug":"back-office",
+  "head_back_image":"../images/featured.jpg",
+    "featured_data": {
+      "title":"Back office",
+      "sub_title":"Specom employs subject specialists",
+       "featured_img":"../images/featured.jpg",
+       "desc":"Outsourcing back-office support services is an easy, dependable, and cost-effective solution to manage your business's operations. It may be used for both core and non-core company functions. Back office services are not only cost-effective but also extremely productive."
+
+  },
+  "desc":"Outsourcing back-office support services is an easy, dependable, and cost-effective solution to manage your business's operations. It may be used for both core and non-core company functions. Back office services are not only cost-effective but also extremely productive."
+
+},
+{
+  "title":"Data Entry",
+  "slug":"data-entry",
+  "head_back_image":"../images/featured.jpg",
+    "featured_data": {
+      "title":"DATA ENTRY SERVICES",
+      "sub_title":"We Offer Best Data Entry Services",
+       "featured_img":"../images/featured.jpg",
+       "desc":"Specom BPO provides excellent, professional, and accurate data entry services and support, whether you have a few million records to digitize or manually input. Our BPO is a well-established offshore data entry company with well-trained data entry specialists that guarantee data entry accuracy of above 99 percent. Our Offshore Services will assist achieve considerable cost reductions of more than 40% and make Data Entry Sourcing Economical with the help of our Data Entry Expert Team. We are experts in entering data from both written and electronic sources."
+
+  },
+  "desc":"Specom BPO provides excellent, professional, and accurate data entry services and support, whether you have a few million records to digitize or manually input. Our BPO is a well-established offshore data entry company with well-trained data entry specialists that guarantee data entry accuracy of above 99 percent. Our Offshore Services will assist achieve considerable cost reductions of more than 40% and make Data Entry Sourcing Economical with the help of our Data Entry Expert Team. We are experts in entering data from both written and electronic sources."
+
+},
+{
+  "title":"Medical billing",
+  "slug":"medical-billing",
+  "head_back_image":"../images/featured.jpg",
+    "featured_data": {
+      "title":"Medical billing",
+      "sub_title":"Specom employs subject specialists",
+       "featured_img":"../images/featured.jpg",
+       "desc":"Specom is one such medical billing outsourcing services company who can be your one-stop-shop for all your medical billing needs. Medical billing is our core competency and we can efficiently manage all your billing needs. Use the services of one of the top medical billing outsourcing companies to make your task less resource consuming."
+
+  },
+  "desc":"Specom is one such medical billing outsourcing services company who can be your one-stop-shop for all your medical billing needs. Medical billing is our core competency and we can efficiently manage all your billing needs. Use the services of one of the top medical billing outsourcing companies to make your task less resource consuming."
+
+},
+{
+  "title":"Software Development",
+  "slug":"software-development",
+  "head_back_image":"../images/featured.jpg",
+    "featured_data": {
+      "title":"Software Development",
+      "sub_title":"We shift the boundaries of what's possible, allowing you to create the next big thing",
+       "featured_img":"../images/featured.jpg",
+       "desc":"While being conscious of the difficulties that an organization encounters. We seek to provide scalable, efficient, and innovative computing services, software, or apps to our clients to achieve the ultimate objective in the most efficient manner possible."
+
+  },
+  "desc":"While being conscious of the difficulties that an organization encounters. We seek to provide scalable, efficient, and innovative computing services, software, or apps to our clients to achieve the ultimate objective in the most efficient manner possible."
+
+},
+{
+  "title":"App Development",
+  "slug":"app-development",
+  "head_back_image":"../images/featured.jpg",
+    "featured_data": {
+      "title":"App Development",
+      "sub_title":"We shift the boundaries of what's possible, allowing you to create the next big thing",
+       "featured_img":"../images/featured.jpg",
+       "desc":"If you own a business and want a custom app designed to meet your specific requirements, please contact us. At Specom, we have specialists who create apps that are tailored to your requirements to help your company flourish."
+
+  },
+  "desc":"If you own a business and want a custom app designed to meet your specific requirements, please contact us. At Specom, we have specialists who create apps that are tailored to your requirements to help your company flourish."
+
+},
+{
+  "title":"Web Development",
+  "slug":"web-development",
+  "head_back_image":"../images/featured.jpg",
+    "featured_data": {
+      "title":"Web Development",
+      "sub_title":"We shift the boundaries of what's possible, allowing you to create the next big thing",
+       "featured_img":"../images/featured.jpg",
+       "desc":"Your website can be a powerful business tool, rich in functionalities. Team Specom can understand your business requirements and customize features and functions to your satisfaction. "
+
+  },
+  "desc":"Your website can be a powerful business tool, rich in functionalities. Team Specom can understand your business requirements and customize features and functions to your satisfaction. "
+
+},
+{
+  "title":"E-commerce Development",
+  "slug":"e-commerce-development",
+  "head_back_image":"../images/featured.jpg",
+    "featured_data": {
+      "title":"E-commerce Development",
+      "sub_title":"We shift the boundaries of what's possible, allowing you to create the next big thing",
+       "featured_img":"../images/featured.jpg",
+       "desc":"Your eCommerce website may be used to run your business. Get built-in payment processing, a delivery partner, a reseller network, and more. "
+
+  },
+  "desc":"Your eCommerce website may be used to run your business. Get built-in payment processing, a delivery partner, a reseller network, and more. "
+
+},
+{
+  "title":"AL & ML",
+  "slug":"ai-ml",
+  "head_back_image":"../images/featured.jpg",
+    "featured_data": {
+      "title":"AL & ML",
+      "sub_title":"We shift the boundaries of what's possible, allowing you to create the next big thing",
+       "featured_img":"../images/featured.jpg",
+       "desc":"Your eCommerce website may be used to run your business. Get built-in payment processing, a delivery partner, a reseller network, and more. "
+
+  },
+  "desc":"Your eCommerce website may be used to run your business. Get built-in payment processing, a delivery partner, a reseller network, and more. "
+
+},
+{
+  "title":"IOT",
+  "slug":"iot",
+  "head_back_image":"../images/featured.jpg",
+    "featured_data": {
+      "title":"IOT",
+      "sub_title":"We shift the boundaries of what's possible, allowing you to create the next big thing",
+       "featured_img":"../images/featured.jpg",
+       "desc":"The Internet of Things (IoT) is a new technology that is still in its early stages. In every manner, the Internet of Things has changed and evolved business. Because of IoT applications, the future of IoT is bright "
+
+  },
+  "desc":"The Internet of Things (IoT) is a new technology that is still in its early stages. In every manner, the Internet of Things has changed and evolved business. Because of IoT applications, the future of IoT is bright "
+
+}
 ]

@@ -6,10 +6,10 @@ export default function Footer() {
 
 <div className='grid grid-cols-2 gap-x-4 container mx-auto sm:w-[90%] p-6'>
   <div className=''>
-    <h5 className='text-xl font-semibold text-brandColor'>Tronic</h5>
+    <h5 className='text-xl font-semibold text-brandColor'>Specom</h5>
     <br className='sm:hidden'/>
-    <h6 className='text-md text-brandColor'>Award winning web designer <br/>
-    street 11 california USA 
+    <h6 className='text-md text-brandColor'>
+    Specom help every business with exquisite custom solutions <br/>to obtain real business value <br/>and scalable solutions.
     </h6>
   </div>
   <div>
@@ -17,15 +17,17 @@ export default function Footer() {
       <div>
     <Socialmedia/>
     <br/>
-    <h6 className='text-md text-brandColor text-right mr-5'>tronic@gmail.com</h6>
-    <p className='text-md text-brandColor text-right mr-5'>+8555555555</p>
+    <h6 className='text-md text-brandColor lowercase text-right mr-5'>INFO@SPECOMUNIVERSE.COM </h6>
+        <p className='text-md lowercase text-brandColor text-right mr-5'>-109, Kasaba hubli, JLB ROAD, <br/> YELETHOTHA, VIDYARANYAPURAM,MYSURU- 570004</p>
+
+    <p className='text-md    text-brandColor text-right mr-5'>7090589999</p>
     </div>
     </div>
   </div>
 
 </div>
 <div className='bg-[#0a0a0a] py-1'>
-<p className='text-center text-brandColor'> &copy; copy rights by tronic </p> 
+<p className='text-center text-brandColor'> &copy; copy rights by Specom </p> 
 </div>
   </div>;
 }

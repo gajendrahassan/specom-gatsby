@@ -7,45 +7,83 @@
         "head_back_image":"../images/background.jpg",
         "services_back_image":"../images/background.jpg",
         "featured_data": {
-            "title":"Feature Title",
-            "sub_title":"Sub Title",
+            "title":"Elevate Your Business with our communication services.",
+            "sub_title":"See how Specom BPO can help you in the growth of your business.",
              "featured_img":"../images/featured.jpg",
-             "desc":"Lmao stands for laughing my ass off. Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off.Lmao stands for laughing my ass off."
+             "desc":"Specom is an outsourcing firm established in Mysore, India that provides global BPO, back office, data entry, and call center services. Our BPO outsourcing firm provides business services to a variety of sectors all around the world. Using our properly educated and unique personnel, our BPO firm executes every business operation, suited to your specific needs."
 
         },
        
         "bpo_services":[
             {
-                "title":"Chat Support",
-                "sub_title":"Quality",
-                "desc":"Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off."
+                "title":"Customer Support",
+                "slug":"customer-support",
+               
+            "sub_title":"We Have the Best Services to Grow Your Business.",
+                  
+                "desc":"We assist customers. These services are characterized as technology vendors and providers that attempt to assist consumers in using goods and services correctly, efficiently, and effectively. Customer service outsourcing might assist your company to supplement its current customer relationships. When you outsource Customer Support Services to Specom BPO Solutions, we can give you valuable insight on unmet requirements, client satisfaction levels, and customer demands. We will also suggest strategies for your company to handle customer concerns and improve customer relationships in addition to this information."
+            
+            
             },
             {
                 "title":"Chat Support",
+                "slug":"chat-support",
+
                 "sub_title":"Quality",
-                "desc":"Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off."
+                "desc":"Are you having a problem in providing your customers with Customized Chat Support at a time that is convenient for them? Are you looking for strategies to reduce your selling costs, improve sales and conversions, and develop a long-term connection with your customers? Then why not take advantage of live Chat Support for your company and create a long-term relationship with your customers? Then it's time to implement live chat assistance for your company."
             },
             {
-                "title":"Chat Support",
-                "sub_title":"Quality",
-                "desc":"Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off."
+                "title":"Call Center",
+                "slug":"call-center",
+
+                "sub_title":"We Have The Best Services To Grow Your Business.",
+                "desc":"We focus on the development of our clients when providing Call Center Services. We have provided Call Center Outsourcing Services to international clients in the education, insurance, health care, travel, real estate, airlines, and banking industries. We deliver excellent customer service to help you build your brand and remain ahead of the competition."
             },
             {
-                "title":"Chat Support",
-                "sub_title":"Quality",
-                "desc":"Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off."
+                "title":"Email Support",
+                "slug":"email-support",
+
+                "sub_title":"We offer Email support services",
+                "desc":"The email has now become the primary means of data transmission and customer relationship management. As a result, many companies are outsourcing their non-voice call center needs, including Email support services. We offer Email support services for technical as well as non-technical products and services."
             },
             {
-                "title":"Chat Support",
-                "sub_title":"Quality",
-                "desc":"Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off."
+                "title":"Back office",
+                "slug":"back-office",
+
+                "sub_title":"Specom employs subject specialists",
+                "desc":"Outsourcing back-office support services is an easy, dependable, and cost-effective solution to manage your business's operations. It may be used for both core and non-core company functions. Back office services are not only cost-effective but also extremely productive."
             },
             {
-                "title":"Chat Support",
-                "sub_title":"Quality",
-                "desc":"Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off. Lmao stands for laughing my ass off."
+                "title":"Medical billing",
+                "slug":"medical-billing",
+
+                "sub_title":"Enhance client satisfaction",
+                "desc":"Specom is one such medical billing outsourcing services company who can be your one-stop-shop for all your medical billing needs. Medical billing is our core competency and we can efficiently manage all your billing needs. Use the services of one of the top medical billing outsourcing companies to make your task less resource consuming."
             }
         ]
     
+    },
+    {
+
+        "title":"Automation and Excel Reporting",
+        "slug":"automation-and-excel-reporting",
+        "head_back_image":"../images/background.jpg",
+        "services_back_image":"../images/background.jpg",
+        "featured_data": {
+            "title":"No More Manual Data Processing",
+            "sub_title":"With Specom, Excel automation has become relatively simple; it reduces human errors and eliminates laborious and time-consuming activities.",
+             "featured_img":"../images/featured.jpg",
+             "desc":"Excel is a robust, efficient, and easy-to-use tool for data storage, calculation, organizing, and report creation. There is no question that this application has grown in popularity as a result of the constant need to access, analyze, retrieve, compute, alter, and report real-time data from small businesses to large corporations. However, connecting Excel with other applications may be time-consuming. Automation is essential for many repetitive processes, such as data retrieval, extraction, migration, import and export, and so on. Excel automation has become quite simple thanks to Specom; it avoids human mistakes and removes tedious and time-consuming tasks. It's also ten times faster than other tools and doesn't require the use of a screen. Specom runs in the background without the need for any software. It's a versatile tool that works with any spreadsheet format, including multiple header styles and column locations. Why We for Excel Automation"
+
+        },
+
+        "bpo_services":[]
+       
+        
+    
     }
+
+
+
+
 ]

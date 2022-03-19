@@ -21,7 +21,7 @@ export default function ClientStat() {
 
   return (
     <div ref={ref} className=' container mx-auto sm:w-[80%] '>
-<h2 className='text-brandColor text-center sm:text-left text-2xl font-bold '>Our Client </h2>
+<h2 className='text-brandColor text-center sm:text-left text-2xl font-bold '>Our Stats </h2>
 
 <hr className='w-[10%] mx-auto sm:w-full'/>
 <br/>

@@ -100,6 +100,7 @@ export const query = graphql`
       desc
       sub_title
       title
+      slug
     }
     }
     
