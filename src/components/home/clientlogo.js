@@ -14,7 +14,7 @@ export default function Clientlogo() {
   return <div className='container  mx-auto'>
     <br/>
     <br/>
-      <h2 className='text-center text-brandColor text-3xl font-bold tracking-[1.3px]'>
+      <h2 className='text-center text-brandColor sm:text-3xl text-lg font-bold tracking-[1.3px]'>
       We are enabling the business to meet <br/> its vision with end-to-end technology solutions.
         
         </h2>
@@ -42,14 +42,14 @@ logoData.map((item, i) =>{
   <br/>
   <br/>
   <br/>
-<div className='grid grid-cols-2 gap-x-2 w-[60%] mx-auto'>
+<div className='grid grid-cols-2 gap-x-2 sm:w-[60%]  mx-auto'>
 
 <div className='col-span-1'>
   <img src="https://cdn.pixabay.com/photo/2017/08/10/08/47/laptop-2620118_960_720.jpg" alt="" className="h-[400px] w-full object-cover rounded" />
 </div>
 <div className='relative'>
 
-  <h6 className="text-white text-md w-[70%] mx-auto text-left absolute top-[-10%] left-[10%]">
+  <h6 className="text-white text-md sm:w-[70%] mx-auto text-left absolute top-[-10%] left-[10%]">
 
   Specom believes that the human components are important to any project's success and that it is here that emotional relationships between the company and its personnel are built. 
   </h6>

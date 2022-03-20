@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'gatsby'
 export default function Header() {
-  return <div><div className='grid grid-cols-8 gap-x-6 sm:w-[90%] container mx-auto py-[1rem] sm:py-[3rem]'>
+  return <div><div className='sm:grid grid-cols-8 gap-x-6  w-[90%] container mx-auto py-[1rem] sm:py-[3rem]'>
 
       <div className='col-span-2 flex items-start text-[#dcf2f4] '>
           <h5 className='tracking-[1.4px] sm:text-left text-center sm:text-[18px] font-extralight leading-[1.3]'>

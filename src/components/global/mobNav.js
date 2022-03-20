@@ -16,7 +16,7 @@ export default function MobNavbar() {
 
 
 
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(true)
 
   const handleOpen = () =>{
 
