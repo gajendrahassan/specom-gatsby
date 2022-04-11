@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Employe({name, desc, desgnition, reverse}) {
+export default function Employe({name, desc, desgnition, reverse, pimg}) {
   return (
       <>
       <br/>
@@ -11,7 +11,7 @@ export default function Employe({name, desc, desgnition, reverse}) {
     {reverse && <p className='text-brandColor transform translate-y-8'>{desc}</p>
  }
 </div>
-<div className='h-[400px] bg-cover bg-black relative bg-[url(https://cdn.pixabay.com/photo/2017/01/03/01/38/man-1948310_960_720.jpg)]'>
+<div className='h-[400px] bg-cover bg-black relative ' style={{backgroundImage:`url(${pimg})`}}>
 <p className='text-brandColor text-md opacity-60 transform -translate-y-7'>{desgnition}</p>
 <h2 className={`text-[#e08c1c] font-bold capitalize text-3xl absolute top-[50%] ${reverse ? 'right-[-25%]' : 'left-[-25%]'} `}>{name}</h2>
 
@@ -26,7 +26,7 @@ export default function Employe({name, desc, desgnition, reverse}) {
 
     <div className='sm:hidden block'>
       <div>
-        <img src="https://cdn.pixabay.com/photo/2017/01/03/01/38/man-1948310_960_720.jpg" alt="" className='h-[300]'/>
+        <img src={pimg} alt="" className='h-[300]'/>
       </div>
       <div className='py-2'>
         <h1 className='text-white font-semibold text-xl text-center'>{name}</h1>

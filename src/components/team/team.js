@@ -1,25 +1,59 @@
 import React from 'react'
 import Employe from './employe'
+import nethra from '../../images/team/Nethravathi.jpg'
+import sathish from '../../images/team/sathish_m.jpg'
+import sharan from '../../images/team/sharon.jpg'
+import hoysala from '../../images/team/hoysala.jpg'
+import ashwini from '../../images/team/ashwini.jpg'
 
+import rajesh from '../../images/team/rajesh_palani.jpg'
 export default function Team() {
 
 const data = [
     {
-        name:'tokiyo tim',
+        name:'Rajesh Palani M',
         desc:'lorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum text lorem ipsum text',
-        designition:'web developer',
-        image:'',
+        designition:'M D',
+        image:rajesh,
         reverse: false
     },
 
     {
-        name:'tokiyo tim',
+        name:'Nethravthi R',
         desc:'lorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum text lorem ipsum text',
-        designition:'web developer',
-        image:'',
+        designition:'Director',
+        image:nethra,
         reverse: true
 
-    }
+    },
+    {
+        name:'Sathish Mehata',
+        desc:'lorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum text lorem ipsum text',
+        designition:'O P Manager',
+        image:sathish,
+        reverse: false
+    },
+    {
+        name:'Sharan',
+        desc:'lorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum text lorem ipsum text',
+        designition:'M I S Manager',
+        image:sharan,
+        reverse: true
+    },
+    {
+        name:'Hoysala M R',
+        desc:'lorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum text lorem ipsum text',
+        designition:'C E O',
+        image:hoysala,
+        reverse: false
+    },
+    {
+        name:'Ashwini P',
+        desc:'lorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum text lorem ipsum text',
+        designition:'HR Manager',
+        image:ashwini,
+        reverse: true
+    },
 ]
 
   return (
@@ -37,7 +71,7 @@ We're a creative team passionate about design, focused on building amazing produ
 {
     data.map((item, i)=>{
 
-        return <Employe key={i} name={item.name}
+        return <Employe key={i} pimg = {item.image} name={item.name}
         desc={item.desc} reverse={item.reverse} desgnition={item.designition}
         />
     })

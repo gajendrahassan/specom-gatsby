@@ -2,9 +2,14 @@ import React, {useState} from 'react'
 import {Link} from 'gatsby'
 import {data} from './data'
 import {AiFillCaretRight} from 'react-icons/ai'
+import {IoMdArrowDropdown} from 'react-icons/md'
+
+
 // import NavBar from './navbar'
 import logo from '../../images/logo.png'
 import MobNavbar from './mobNav'
+import Iso from '../shared/iso'
+import CookieAcept from '../shared/cookie'
 
 export default function Navbar2() {
 
@@ -54,7 +59,7 @@ const handleLeave = () =>{
         return <> 
         <Link to={item?.path}>
         <li onMouseOver={()=>handleHoverC(item?.title)} className='text-[#bbbbbb] hover:text-[#ebebeb] relative parent  hover:underline cursor-pointer font-medium tracking-wider  text-xl' key={i}>
-          {item.title} </li> </Link> 
+          {item.title == 'Services' ? <> {item.title}  &#9660;</> : item.title } </li> </Link> 
                  <ul onMouseLeave={handleLeave} className='m-0 w-[240px] rounded child   bg-gray-300 absolute top-[95%]  transform translate-x-12'>{
                      (cstate == 'Services') && item?.child?.map((citem, k)=>{
 
@@ -90,6 +95,8 @@ const handleLeave = () =>{
     
      </div>
     </nav> 
+    <Iso/>
+    <CookieAcept/>
     </>
   )
 }

@@ -22,10 +22,10 @@ export default function Fetured() {
               />
             </svg>
           </div>
-          <h6 className="mb-2 text-[#dddcdc] font-semibold leading-5">The quick fox</h6>
+          <h6 className="mb-2 text-[#dddcdc] font-semibold leading-5">CUSTOMER FOCUSED
+</h6>
           <p className="mb-3 text-sm text-[#a8a7a7] ">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium rem aperiam, eaque ipsa quae. Sit error voluptatem.
+          Our satisfied employee engine creates a culture to makes great and satisfied customer
           </p>
         </div>
       </div>
@@ -46,11 +46,10 @@ export default function Fetured() {
               />
             </svg>
           </div>
-          <h6 className="mb-2  text-[#dddcdc] font-semibold leading-5">Leverage agile</h6>
+          <h6 className="mb-2  text-[#dddcdc] font-semibold leading-5">STRONG TEAM
+</h6>
           <p className="mb-3 text-sm text-[#a8a7a7] ">
-            Storage shed, troughs feed bale manure, is garden wheat oats at
-            augers. Bulls at rose garden cucumbers mice sunflower wheat in
-            pig.
+          Strong expertise in delivering business value in various technologies
           </p>
         </div>
       </div>
@@ -71,10 +70,11 @@ export default function Fetured() {
               />
             </svg>
           </div>
-          <h6 className="mb-2 text-[#dddcdc] font-semibold leading-5">Organically grow</h6>
+          <h6 className="mb-2 text-[#dddcdc] font-semibold leading-5">GLOBAL PRESENCE
+</h6>
           <p className="mb-3 text-sm text-[#a8a7a7] ">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium rem aperiam, eaque ipsa quae. Sit error voluptatem.
+          Head quartered in Dubai, operating in India, Dubai, and many more countries
+
           </p>
         </div>
       </div>
@@ -95,11 +95,9 @@ export default function Fetured() {
               />
             </svg>
           </div>
-          <h6 className="mb-2 text-[#dddcdc] font-semibold leading-5">Have a good one</h6>
+          <h6 className="mb-2 text-[#dddcdc] font-semibold leading-5">TECHNOLOGY</h6>
           <p className="mb-3 text-sm text-[#a8a7a7] ">
-            Storage shed, troughs feed bale manure, is garden wheat oats at
-            augers. Bulls at rose garden cucumbers mice sunflower wheat in
-            pig.
+          Java, Python, AI, ML, Big Data and other Disruptive Technology expertise.
           </p>
         </div>
       </div>
@@ -120,10 +118,10 @@ export default function Fetured() {
               />
             </svg>
           </div>
-          <h6 className="mb-2 text-[#dddcdc] font-semibold leading-5">Trough pomfret</h6>
+          <h6 className="mb-2 text-[#dddcdc] font-semibold leading-5">Tied Hub</h6>
           <p className="mb-3 text-sm text-[#a8a7a7] ">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium rem aperiam, eaque ipsa quae. Sit error voluptatem.
+        {`  Dedication & Commitment
+There is no compromise when it comes to delivering projects on time. `}
           </p>
         </div>
       </div>
@@ -144,11 +142,13 @@ export default function Fetured() {
               />
             </svg>
           </div>
-          <h6 className="mb-2 text-[#dddcdc] font-semibold leading-5">Disrupt inspire</h6>
+          <h6 className="mb-2 text-[#dddcdc] font-semibold leading-5">
+          Team work
+
+          </h6>
           <p className="mb-3 text-sm text-[#a8a7a7] ">
-            Storage shed, troughs feed bale manure, is garden wheat oats at
-            augers. Bulls at rose garden cucumbers mice sunflower wheat in
-            pig.
+          We believe in growing and teaching new skills and helping each other whenever we face any difficulties, that's how our Team works.
+
           </p>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Img from 'gatsby-image'
+import { Link } from 'gatsby'
 export default function Feature({imge, data}) {
   return (
     <div className='grid grid-cols-1  sm:grid-cols-2 gap-8'>
@@ -14,7 +15,8 @@ export default function Feature({imge, data}) {
             <br/>
             <p className='text-[#b1b1b1] tracking-[1px]'>{data.desc}</p>
        <br/>
-       <button className='px-5 py-2 bg-slate-100 font-semibold rounded-full text-[#252525]'>Contact Now</button>
+       <Link to='/contact'><button className='px-5 py-2 bg-slate-100 font-semibold rounded-full text-[#252525]'>
+         Contact Now</button></Link>
         </div>
     </div>
   )

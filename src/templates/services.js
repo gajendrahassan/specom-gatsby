@@ -12,7 +12,7 @@ import OtherServices from "./serviceComponents/otherServices"
 const ProjectDetails = ({ data }) => {
   // const { html } = data.markdownRemark
   const { title, bpo_services, featured_data,
-    head_back_image,
+    head_back_image, core_title,
     services_back_image,
   } = data.servicesJson
 
@@ -30,16 +30,16 @@ const ProjectDetails = ({ data }) => {
         <br/>
         <br/>
 
-        <CoreServiceWrap style={{backgroundImage:`url(${services_back_image.childImageSharp.fluid.src})`}} className="bg-[100%] bg-cover bg-fixed">
+      {  bpo_services?.length > 0 && <CoreServiceWrap style={{backgroundImage:`url(${services_back_image.childImageSharp.fluid.src})`}} className="bg-[100%] bg-cover bg-fixed">
     <br/>
     <br/>
-    <h2 className='text-3xl relative text-white text-center  font-semibold tracking-[2px]'>Our Core Services</h2>
+    <h2 className='text-3xl relative text-white text-center  font-semibold tracking-[2px]'>{core_title}</h2>
     <br/>
-       <CoreService data={bpo_services} />
+       <CoreService data={bpo_services} title={title} />
        <br/>
-       </CoreServiceWrap>
+       </CoreServiceWrap> }
      <br/> <br/>
-     <OtherServices/>
+     {/* <OtherServices/> */}
      <br/> <br/>
        <Footer/>
       </div>
@@ -80,6 +80,7 @@ export const query = graphql`
       sub_title
       title
     }
+    core_title
     title
     slug
     services_back_image {

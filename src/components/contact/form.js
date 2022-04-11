@@ -1,42 +1,55 @@
 import React from 'react'
 import styled from 'styled-components'
+import { useForm, ValidationError } from '@formspree/react';
 
 export default function ContactForm() {
 
-    const handleClick = (values) =>{
+ 
 
-        console.log(values);
+    const [state, handleSubmit] = useForm("xpzbyqlq");
+  
+    if(state.succeeded){
+
+
+      setTimeout(()=>{
+        window.location.reload()
+
+
+      }, 2000)
     }
-
-
 
   return (
     <ContactFormWrap>
         <h2 className='text-brandColor sm:text-left text-center '>Contact Us</h2>
         <hr className='w-[17%] sm:mx-0.5  mx-auto'/>
-      
       <br/>
-      <input name="name" type='text'/>
+        {state.succeeded && <div className=' bg-green-700 text-white rounded p-3'>
+           <p>Thank you for Contacting Us!</p>
+        </div>}
+        <form onSubmit={handleSubmit}>
+
+      <br/>
+      <input placeholder='full name' name="name" type='text' required/>
       <br/>
       <br/>
 
-      <input name="company_name" type='text'/>
+      <input placeholder='company name' name="company_name" type='text'/>
       <br/> 
       <br/>
 
-       <input name="email" type='email'/>
+       <input placeholder='email' name="email" type='email' required/>
       <br/>
       <br/>
 
-        <input name="phone_number" type='tel'/>
+        <input placeholder='phone number'  name="phone_number" type='tel'/>
       <br/>
       <br/>
   
-      <textarea name="project_details" rows={3} type='text'/>
+      <textarea placeholder='project details' name="project_details" rows={3} type='text'/>
       <br/>
 <br/>
-      <button onClick={handleClick}>Submit</button>
-
+      <button disabled={state.submitting} type="submit">Submit</button>
+</form>
     </ContactFormWrap>
   )
 }

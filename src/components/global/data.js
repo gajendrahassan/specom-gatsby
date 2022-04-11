@@ -47,7 +47,7 @@
                 {
 
                     title:'Software Development',
-                    path:'#',
+                    path:'/services/software-development',
                     child:[
                         {
                              title:'App Development',

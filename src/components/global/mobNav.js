@@ -5,6 +5,7 @@ import {AiFillCaretRight} from 'react-icons/ai'
 // import NavBar from './navbar'
 import  { MdClose } from 'react-icons/md'
 import { VscMenu } from "react-icons/vsc";
+import logo from '../../images/logo.png'
 
 export default function MobNavbar() {
 
@@ -46,7 +47,7 @@ const handleLeave = () =>{
   return (
       <>
       <div className='bg-[#111314] p-2 flex items-center justify-between'>
-      <h1 className='text-2xl text-right  font-bold text-white'>LOGO</h1>
+      <img src={logo} className='w-[100px]'/>
    { open &&   <VscMenu onClick={()=>handleOpen()} className=' font-thin  text-right cursor-pointer text-brandColor text-4xl'/>}
 {  !open &&   <MdClose onClick={()=>handleOpen()} className=' font-thin  text-right cursor-pointer text-brandColor text-4xl'/>
 }
@@ -57,7 +58,7 @@ const handleLeave = () =>{
  
      <div>
      <div className="logo flex justify-between items-center">
-         <h1 className='text-2xl mb-5 text-left font-bold text-white'>LOGO</h1>
+         <img src={logo} className='w-[100px]'/>
 
      </div>
      <br/>

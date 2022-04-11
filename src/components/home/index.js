@@ -6,6 +6,8 @@ import Clientlogo from './clientlogo';
 import ClientStat from './clientStat';
 import Experience from './experience';
 import Featuredworks from './featuredworks';
+import MFeaturedworks from './mfeaturework';
+
 import Fetured from './fetured';
 import Header from './header';
 import ProjectStat from './projectStat';
@@ -15,9 +17,16 @@ export default function index() {
     <Navbar/>
     <Header/>
     <Clientlogo/>
+ 
     <br/>
     <br className='sm:block hidden'/>
+    <div className='sm:block hidden'>
     <Featuredworks/>
+    </div>
+    <br/>
+    <div className='sm:hidden block'>
+    <MFeaturedworks/>
+    </div>
     <br/>
     <br className='sm:block hidden'/>
 

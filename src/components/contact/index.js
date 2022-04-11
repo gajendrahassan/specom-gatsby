@@ -1,9 +1,12 @@
 import React from 'react';
+
 import Footer from '../global/footer';
 import Navbar from '../global/navbar2';
 import ContactForm from './form';
 
-export default function index() {
+export default function Index() {
+
+
   return <main>
     <Navbar/> 
     <br/>

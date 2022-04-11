@@ -1,16 +1,63 @@
 import React from 'react';
 import {Link} from 'gatsby'
+import clogo1 from '../../images/clogos/clogo1.jpg'
+import clogo2 from '../../images/clogos/clogo2.jpg'
+import clogo3 from '../../images/clogos/clogo3.jpg'
+import clogo4 from '../../images/clogos/clogo4.jpg'
+import clogo5 from '../../images/clogos/clogo5.jpg'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
+import fimage from '../../images/illustrate/slides-1 (1).png'
 export default function Clientlogo() {
 
-    const logoData = ['https://assets.website-files.com/61d4261bcf0684baf625a73c/61d5889139013f20a405d92d_logo-1.png',
-    'https://assets.website-files.com/61d4261bcf0684baf625a73c/61d4261bcf0684834325a84c_logo-1.png',
-    'https://assets.website-files.com/61d4261bcf0684baf625a73c/61d5889139013f20a405d92d_logo-1.png',
-    'https://assets.website-files.com/61d4261bcf0684baf625a73c/61d4261bcf0684834325a84c_logo-1.png',
-    'https://assets.website-files.com/61d4261bcf0684baf625a73c/61d5889139013f20a405d92d_logo-1.png'
-
+    const logoData = [clogo1,
+    clogo2,
+    clogo3,
+    clogo4,
+    clogo2,
+    clogo5
 
 ]
 
+const settings = {
+  dots: true,
+  infinite: true,
+  arrows:false,
+  speed: 500,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+
+};
   return <div className='container  mx-auto'>
     <br/>
     <br/>
@@ -28,14 +75,19 @@ export default function Clientlogo() {
   <br/>
   <br className='sm:block hidden'/>
   <br className='sm:block hidden'/>
-<div className=' grid sm:grid-cols-5 grid-cols-2  gap-x-12 sm:w-[70%] mx-auto'>
+<div className=' sm:w-[70%] w-[90%] mx-auto'>
+<Slider {...settings}>
+
   {
 
 logoData.map((item, i) =>{
 
-    return <img className='cols-span-1 w-[90%] my-2 block m-auto' key={i} src={item} alt="logo"/>
+    return <div>
+      <img className='cols-span-1 h-[120px] object-cover w-[90%] my-2 block m-auto' key={i} src={item} alt="logo"/>
+      </div>
 })
   }
+  </Slider>
   </div>
   <br/>
   <br/>
@@ -45,11 +97,11 @@ logoData.map((item, i) =>{
 <div className='grid grid-cols-2 gap-x-2 sm:w-[60%]  mx-auto'>
 
 <div className='col-span-1'>
-  <img src="https://cdn.pixabay.com/photo/2017/08/10/08/47/laptop-2620118_960_720.jpg" alt="" className="h-[400px] w-full object-cover rounded" />
+  <img src={fimage} alt="" className="h-[400px] w-full object-cover rounded" />
 </div>
-<div className='relative'>
+<div className='relative flex justify-center items-center'>
 
-  <h6 className="text-white text-md sm:w-[70%] mx-auto text-left absolute top-[-10%] left-[10%]">
+  <h6 className="text-white text-lg sm:w-[90%] mx-auto text-left ">
 
   Specom believes that the human components are important to any project's success and that it is here that emotional relationships between the company and its personnel are built. 
   </h6>

@@ -1,6 +1,8 @@
 import { Link } from 'gatsby'
 import React from 'react'
 import { MdFlipCameraAndroid } from 'react-icons/md'
+import bpoImg from '../../images/illustrate/bpo.jpg'
+import bpoImg2 from '../../images/illustrate/services-2.jpg'
 
 export default function Experience() {
 
@@ -31,30 +33,30 @@ export default function Experience() {
 
 <div className='sm:grid hidden grid-cols-3 gap-x-8 '>
     <div className='col-span-1 bg-[#202020] p-3 rounded'>
-       <Card title="title" path="/more" desc="description" Icon="1"/> 
+       <Card title="BPO Services" path="/services/bpo-services" desc="Elevate Your Business with our communication services" Icon="1"/> 
     </div>
-    <div className='col-span-1 bg-[#202020] p-3 bg-center rounded bg-[url(https://cdn.pixabay.com/photo/2021/01/23/18/40/child-5943323__340.jpg)]' >
+    <div className='col-span-1 bg-[#202020] p-3 bg-center rounded ' style={{backgroundImage:`url(${bpoImg})`}} >
     {/* <Card title="title" path="/more" desc="description" Icon="2"/>  */}
 
     </div>
     <div className='col-span-1 bg-[#202020] p-3 rounded'>
-    <Card title="title" path="/more" desc="description" Icon="2"/> 
+    <Card title="Software Development" path="/services/software-development" desc="We shift the boundaries of what's possible, allowing you to create the next big thing" Icon="2"/> 
 
     </div>
 
-
+    
 </div>
 <br/>
 <div className='grid sm:grid-cols-3 grid-cols-1 gap-x-8 gap-y-4 '>
     <div className='col-span-1 bg-[#202020] p-3 rounded'>
-       <Card title="title" path="/more" desc="description" Icon="1"/> 
+       <Card title="Import Export" path="/more" desc="We Providing quantitative and qualitative data on service consumption in Export Market " Icon="1"/> 
     </div>
-    <div className='col-span-1 h-[250px] sm:h-full bg-[#202020] p-3 bg-center rounded bg-[url(https://cdn.pixabay.com/photo/2021/01/23/18/40/child-5943323__340.jpg)]' >
+    <div className='col-span-1 h-[250px] sm:h-full bg-[#202020] p-3 bg-center rounded' style={{backgroundImage:`url(${bpoImg2})`}} >
     {/* <Card title="title" path="/more" desc="description" Icon="2"/>  */}
 
     </div>
     <div className='col-span-1 bg-[#202020] p-3 rounded'>
-    <Card title="title" path="/more" desc="description" Icon="2"/> 
+    <Card title="Automation" path="/more" desc="Service automation is the condensation of many human-centric services into a streamlined, software-based online platform." Icon="2"/> 
 
     </div>
 

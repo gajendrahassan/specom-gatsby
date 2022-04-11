@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import HorizontalScroll from '../shared/horizontalScroll'
-import styled from 'styled-components'
-import { Link } from 'gatsby';
+import { Link, graphql, useStaticQuery } from 'gatsby';
+import SampleCards from '../shared/projectCard';
+
 export default function Featuredworks() {
 
   const ref = useRef()
@@ -22,24 +23,30 @@ export default function Featuredworks() {
 
 
 
- const SampleCard = styled.div`
- background: url('https://cdn.pixabay.com/photo/2021/01/23/18/40/child-5943323__340.jpg');
-  position: relative;
-  height: 400px;
-  width: 600px;
-  background-color: navy;
-  margin-right: 35px;
-  flex-shrink: 0;
-  background-repeat:no-repeat;
-  background-size:cover;
-  
-`;
 
-const SampleCards = React.memo(() =>
-  Array(5)
-    .fill(0)
-    .map((_e, i) => <Link to='/project'> <SampleCard key={`sampleCard-${i}`} /></Link>)
-);
+
+
+
+const project  = useStaticQuery(graphql`
+ query Projects {
+   allProjectJson {
+      nodes {
+      slug
+      title
+      fornt_img {
+        childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+        }
+      }
+      
+    }
+     }
+ }
+ `)
+
+ const projects = project?.allProjectJson?.nodes
 
 
   return <> 
@@ -52,7 +59,13 @@ const SampleCards = React.memo(() =>
   <div ref={ref} className='flex w-screen  '>
 
  <HorizontalScroll>
-          <SampleCards />
+ {projects.map((item, i)=>{
+
+   return  <SampleCards key={i} slug={item.slug}
+   title={item.title}
+   imge={item.fornt_img.childImageSharp.fluid}  />
+ })}
+         
         </HorizontalScroll>
   </div>
   </>

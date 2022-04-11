@@ -1,0 +1,72 @@
+[
+
+    {
+      "title":"Project Title 1",
+      "slug":"project-slug1",
+      "fornt_img":"../images/projects/projects-5.jpg",
+
+      "head_back_image":"../images/featured.jpg",
+        "featured_data": {
+          "title":"Customer Support",
+          "sub_title":"We Have the Best Services to Grow Your Business.",
+           "featured_img":"../images/featured.jpg",
+           "desc":"We assist customers. These services are characterized as technology vendors and providers that attempt to assist consumers in using goods and services correctly, efficiently, and effectively. Customer service outsourcing might assist your company to supplement its current customer relationships. When you outsource Customer Support Services to Specom BPO Solutions, we can give you valuable insight on unmet requirements, client satisfaction levels, and customer demands. We will also suggest strategies for your company to handle customer concerns and improve customer relationships in addition to this information."
+  
+      },
+      "desc":"We assist customers. These services are characterized as technology vendors and providers that attempt to assist consumers in using goods and services correctly, efficiently, and effectively. Customer service outsourcing might assist your company to supplement its current customer relationships. When you outsource Customer Support Services to Specom BPO Solutions, we can give you valuable insight on unmet requirements, client satisfaction levels, and customer demands. We will also suggest strategies for your company to handle customer concerns and improve customer relationships in addition to this information."
+  
+  
+  },
+  {
+    "title":"Project Title 1",
+    "slug":"project-slug2",
+    "fornt_img":"../images/projects/projects-4.jpg",
+
+    "head_back_image":"../images/featured.jpg",
+      "featured_data": {
+        "title":"Customer Support",
+        "sub_title":"We Have the Best Services to Grow Your Business.",
+         "featured_img":"../images/featured.jpg",
+         "desc":"We assist customers. These services are characterized as technology vendors and providers that attempt to assist consumers in using goods and services correctly, efficiently, and effectively. Customer service outsourcing might assist your company to supplement its current customer relationships. When you outsource Customer Support Services to Specom BPO Solutions, we can give you valuable insight on unmet requirements, client satisfaction levels, and customer demands. We will also suggest strategies for your company to handle customer concerns and improve customer relationships in addition to this information."
+
+    },
+    "desc":"We assist customers. These services are characterized as technology vendors and providers that attempt to assist consumers in using goods and services correctly, efficiently, and effectively. Customer service outsourcing might assist your company to supplement its current customer relationships. When you outsource Customer Support Services to Specom BPO Solutions, we can give you valuable insight on unmet requirements, client satisfaction levels, and customer demands. We will also suggest strategies for your company to handle customer concerns and improve customer relationships in addition to this information."
+
+
+},
+{
+    "title":"Project Title 1",
+    "slug":"project-slug3",
+    "fornt_img":"../images/projects/projects-3.jpg",
+
+    "head_back_image":"../images/featured.jpg",
+      "featured_data": {
+        "title":"Customer Support",
+        "sub_title":"We Have the Best Services to Grow Your Business.",
+         "featured_img":"../images/featured.jpg",
+         "desc":"We assist customers. These services are characterized as technology vendors and providers that attempt to assist consumers in using goods and services correctly, efficiently, and effectively. Customer service outsourcing might assist your company to supplement its current customer relationships. When you outsource Customer Support Services to Specom BPO Solutions, we can give you valuable insight on unmet requirements, client satisfaction levels, and customer demands. We will also suggest strategies for your company to handle customer concerns and improve customer relationships in addition to this information."
+
+    },
+    "desc":"We assist customers. These services are characterized as technology vendors and providers that attempt to assist consumers in using goods and services correctly, efficiently, and effectively. Customer service outsourcing might assist your company to supplement its current customer relationships. When you outsource Customer Support Services to Specom BPO Solutions, we can give you valuable insight on unmet requirements, client satisfaction levels, and customer demands. We will also suggest strategies for your company to handle customer concerns and improve customer relationships in addition to this information."
+
+
+},
+
+{
+    "title":"Project Title 1",
+    "slug":"project-slug4",
+    "fornt_img":"../images/projects/projects-2.jpg",
+    "head_back_image":"../images/featured.jpg",
+      "featured_data": {
+        "title":"Customer Support",
+        "sub_title":"We Have the Best Services to Grow Your Business.",
+         "featured_img":"../images/featured.jpg",
+         "desc":"We assist customers. These services are characterized as technology vendors and providers that attempt to assist consumers in using goods and services correctly, efficiently, and effectively. Customer service outsourcing might assist your company to supplement its current customer relationships. When you outsource Customer Support Services to Specom BPO Solutions, we can give you valuable insight on unmet requirements, client satisfaction levels, and customer demands. We will also suggest strategies for your company to handle customer concerns and improve customer relationships in addition to this information."
+
+    },
+    "desc":"We assist customers. These services are characterized as technology vendors and providers that attempt to assist consumers in using goods and services correctly, efficiently, and effectively. Customer service outsourcing might assist your company to supplement its current customer relationships. When you outsource Customer Support Services to Specom BPO Solutions, we can give you valuable insight on unmet requirements, client satisfaction levels, and customer demands. We will also suggest strategies for your company to handle customer concerns and improve customer relationships in addition to this information."
+
+
+}
+     
+  ]

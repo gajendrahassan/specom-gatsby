@@ -13,6 +13,8 @@
              "desc":"Specom is an outsourcing firm established in Mysore, India that provides global BPO, back office, data entry, and call center services. Our BPO outsourcing firm provides business services to a variety of sectors all around the world. Using our properly educated and unique personnel, our BPO firm executes every business operation, suited to your specific needs."
 
         },
+        "core_title":"Our Core Services",
+
        
         "bpo_services":[
             {
@@ -76,8 +78,153 @@
              "desc":"Excel is a robust, efficient, and easy-to-use tool for data storage, calculation, organizing, and report creation. There is no question that this application has grown in popularity as a result of the constant need to access, analyze, retrieve, compute, alter, and report real-time data from small businesses to large corporations. However, connecting Excel with other applications may be time-consuming. Automation is essential for many repetitive processes, such as data retrieval, extraction, migration, import and export, and so on. Excel automation has become quite simple thanks to Specom; it avoids human mistakes and removes tedious and time-consuming tasks. It's also ten times faster than other tools and doesn't require the use of a screen. Specom runs in the background without the need for any software. It's a versatile tool that works with any spreadsheet format, including multiple header styles and column locations. Why We for Excel Automation"
 
         },
+        "core_title":"Items We Export to the world are",
+
 
         "bpo_services":[]
+       
+        
+    
+    },
+    {
+
+        "title":"Import Export",
+        "slug":"import-export",
+        "head_back_image":"../images/background.jpg",
+        "services_back_image":"../images/background.jpg",
+        "featured_data": {
+            "title":"TOTAL QUALITY ASSURED",
+            "sub_title":"Our Total Quality Assurance expertise is delivered consistently with precision, pace, and passion, enabling our customers to power ahead safely.",
+             "featured_img":"../images/featured.jpg",
+             "desc":"Secure compliance and Total Quality Assurance of your shipments with the expertise of Specom. Focus on selling your products to your target import and export countries. Consumers, brands, and businesses may rely on Conformity Assessment Programs to ensure that their goods meet the regulatory criteria of the importing country. Consumers' health and property can be harmed by unsafe and unreliable products, and there are expenses connected with product recalls, compensation claims, and brand reputation loss."
+
+        },
+
+        "core_title":"Items We Export to the world are",
+
+        "bpo_services":[
+            {
+                "title":"Coffee",
+                "slug":"coffee",
+               
+            "sub_title":"We export various Coffee beans",
+                  
+                "desc":"  We export various Coffee beans, We have experienced and professionally qualified personnel in our export team who can handle customized orders & logistically complete the shipments before the deadline. "
+            
+            
+            },
+            {
+                "title":"Tea",
+                "slug":"tea",
+               
+            "sub_title":"We export a variety of tea products. ",
+                  
+                "desc":"We export a variety of tea products. Our export team consists of experienced and professionally certified employees that can handle bespoke requests and logistically complete shipments before the deadline."
+            
+            
+            }, {
+                "title":"Black pepper",
+                "slug":"black_pepper",
+               
+            "sub_title":"Black pepper is something we export.",
+                  
+                "desc":"Black pepper is something we export. Our export team is made up of experienced and professionally qualified individuals that can manage special demands and logistically finish shipments ahead of schedule."
+            
+            
+            }, {
+                "title":"Curcumin",
+                "slug":"curcumin",
+               
+            "sub_title":"We also export 95% of our Curcumin.",
+                  
+                "desc":"We also export 95% of our Curcumin. Our export team is made up of skilled and professionally qualified individuals that can manage unexpected demands and finish shipments ahead of schedule."
+            
+            
+            }
+        ]
+       
+        
+    
+    }, {
+
+        "title":"ISO Certification",
+        "slug":"iso-certification",
+        "head_back_image":"../images/background.jpg",
+        "services_back_image":"../images/background.jpg",
+        "featured_data": {
+            "title":"Get Your Business ISO Certified Today!",
+            "sub_title":"Our ISO certification verifies that a company's management system, manufacturing process, service, or documentation method meets all of the industry's quality assurance and standards. ",
+             "featured_img":"../images/featured.jpg",
+             "desc":"We have the greatest specialists at Specom, who will make your certification process as simple as possible. We recognize the particular requirements of each company and work with them to obtain certification and maintain compliance with ISO rules. Our customized solutions avoid the one-size-fits-all approach and deliver the greatest outcomes in the shortest amount of time."
+
+        },
+        "core_title":"How ISO Certification Works",
+
+        "bpo_services":[ {
+            "title":"GAP Analysis",
+            "slug":"gap-analysis",
+           
+        "sub_title":"",
+              
+            "desc":"We look at how different companies process the function to see if consumers' expectations are being fulfilled and, if not, what efforts should be made to make sure they are."
+        
+        
+        },
+        {
+            "title":"Training",
+            "slug":"training",
+           
+        "sub_title":"",
+              
+            "desc":"Our specialists will give training to the organization's team to ensure that the customer's expectations are satisfied and that all other requirements are met under ISO standards. "
+        
+        
+        },{
+            "title":"Documentation",
+            "slug":"documentation",
+           
+        "sub_title":"",
+              
+            "desc":"Our knowledgeable advisors will assist you in preparing paperwork for ISO certification by the appropriate standards and will continue to update as industry requirements change."
+        
+        
+        },{
+            "title":"GAP Analysis",
+            "slug":"gap-analysis",
+           
+        "sub_title":"",
+              
+            "desc":"We look at how different companies process the function to see if consumers' expectations are being fulfilled and, if not, what efforts should be made to make sure they are."
+        
+        
+        },{
+            "title":"Audit",
+            "slug":"Audit",
+           
+        "sub_title":"",
+              
+            "desc":"We also assist and provide the auditing and assurance services where third-party audit is required to secure certification."
+        
+        
+        },{
+            "title":"Implementation",
+            "slug":"gap-analysis",
+           
+        "sub_title":"",
+              
+            "desc":"ISO implementation includes GAP analysis, training, and documentation. Our expert will carry out all essential activities to ensure that the ISO standard is implemented inside the organization."
+        
+        
+        },{
+            "title":"Certification",
+            "slug":"gap-analysis",
+           
+        "sub_title":"",
+              
+            "desc":"Our advisors will assist you in obtaining ISO certification from a well-known accreditation organization after you have successfully implemented the ISO standard."
+        
+        
+        }]
        
         
     

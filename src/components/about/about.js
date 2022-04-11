@@ -12,6 +12,8 @@ export default function About() {
 organizations to transform into digital enterprises.
         </h6>
         <br/>
+        <h6 className='text-[#ffffff] text-2xl opacity-80 text-cenetr'>We assist customers in taking their businesses to the next level by identifying their most pressing technology requirements and assisting them in maximizing their investments insignificant, scalable, and intelligent technology tools and solutions from global technology innovators.</h6>
+        <br/>
         <br/>
         </div>
   )
