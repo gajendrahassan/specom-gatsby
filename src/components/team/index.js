@@ -3,6 +3,7 @@ import Navbar from '../global/navbar2';
 import Footer from '../global/footer';
 import Team from './team';
 import ProjectStat from '../shared/projectStat';
+import Team2 from './team2';
 
 export default function index() {
   return <main >
@@ -10,6 +11,7 @@ export default function index() {
     <br/>
     <br/>
 <Team/>
+<Team2/>
 <br/>
 <br/>
 <ProjectStat/>

@@ -48,7 +48,9 @@ const handleLeave = () =>{
   <nav className='hidden sm:block shadow-md bg-[#111314] py-4 sticky top-0 z-20'>
      <div className=' flex justify-between items-center container mx-auto w-[90%]'>
      <div className="logo">
-         <img src={logo} className='w-[100px]'/>
+        <Link to='/'>
+             <img src={logo} className='w-[100px]'/>
+    </Link>
      </div>
      <div>
          <ul className='flex space-x-12'>

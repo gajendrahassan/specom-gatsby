@@ -29,6 +29,7 @@
     "gatsby-transformer-json": "^4.9.0",
     "gatsby-transformer-sharp": "^4.6.0",
     "i": "^0.3.7",
+    "interweave": "^13.0.0",
     "npm": "^8.4.1",
     "react": "^17.0.1",
     "react-countup": "^6.1.1",

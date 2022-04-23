@@ -41,7 +41,7 @@ export default function Mfeaturework() {
      
 
     return (
-      <div className='w-[90%]'>
+      <div className='w-[90%] mx-auto rounded overflow-hidden '>
         <Slider {...settings}>
         {
 projects.map((item, i)=>{

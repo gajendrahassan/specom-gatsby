@@ -1,4 +1,5 @@
 import React from 'react';
+import { MdLocationPin, MdMail, MdPhone } from 'react-icons/md';
 import Socialmedia from '../shared/socialmedia';
 
 export default function Footer() {
@@ -17,10 +18,11 @@ export default function Footer() {
       <div>
     <Socialmedia/>
     <br/>
-    <h6 className='sm:text-[15px] text-[10px]  text-brandColor lowercase text-right sm:mr-5'>INFO@SPECOMUNIVERSE.COM </h6>
-        <p className='sm:text-[15px] text-[10px]  lowercase text-brandColor text-right  sm:mr-5'>-109, Kasaba hubli, JLB ROAD, YELETHOTHA, <br/>VIDYARANYAPURAM,MYSURU- 570004</p>
+    <h6 className='sm:text-[15px] text-[10px]  text-brandColor lowercase text-left sm:mr-5 flex items-center'> <MdMail/> &nbsp;&nbsp; INFO@SPECOMUNIVERSE.COM </h6>
+        <p className='sm:text-[15px] text-[10px]  lowercase text-brandColor text-left  sm:mr-5 flex items-center'><MdLocationPin/>&nbsp; &nbsp;-109, Kasaba hubli, JLB ROAD, YELETHOTHA,</p>
+        <p className='sm:text-[15px] text-[10px]  lowercase text-brandColor text-left  sm:mr-5'>&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;VIDYARANYAPURAM,MYSURU- 570004 </p>
 
-    <p className='sm:text-[15px] text-[10px]    text-brandColor text-right sm:mr-5'>7090589999</p>
+    <p className='sm:text-[15px] text-[10px]    text-brandColor text-left sm:mr-5 flex items-center'><MdPhone/>&nbsp; &nbsp;7090589999</p>
     </div>
     </div>
   </div>

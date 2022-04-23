@@ -3,6 +3,7 @@ import Footer from '../global/footer';
 import Navbar from '../global/navbar2';
 import ProjectStat from '../shared/projectStat';
 import CareerForm from './form';
+import Table from './table';
 export default function index() {
   return <main>
     <Navbar/>
@@ -25,6 +26,10 @@ Each employee is critical to the success of a business. Employees are the ones t
   <div>
     <CareerForm/>
   </div>
+</div>
+<br/>
+<div className='my-5 hidden sm:block container mx-auto w-[80%]'>
+<Table/>
 </div>
 <br/>
 <br/>

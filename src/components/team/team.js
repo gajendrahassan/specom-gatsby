@@ -11,8 +11,11 @@ export default function Team() {
 
 const data = [
     {
-        name:'Rajesh Palani M',
-        desc:'lorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum text lorem ipsum text',
+        name:'Mr Rajesh Palani M',
+        desc:`He has been actively involved in business over the last 35 Years in the fields of BPO Services,
+        Auto Gas Industries, Star Hotel Industry, Transportation, Commercial Industries, Import &
+        Export Company and Farming Industries. He is also actively involved in the affairs of entire
+        organization.`,
         designition:'M D',
         image:rajesh,
         reverse: false
@@ -20,7 +23,10 @@ const data = [
 
     {
         name:'Nethravthi R',
-        desc:'lorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum text lorem ipsum text',
+        desc:`Nethravthi is committed to providing our customer with the highest level of quality,
+        service and cost savings. Our goal is to exceed our customers' expectations by ensuring that their
+        requirements are determined, understood, met, and regular reviewed with the intent of enhancing
+        overall customer satisfaction.`,
         designition:'Director',
         image:nethra,
         reverse: true
@@ -28,28 +34,35 @@ const data = [
     },
     {
         name:'Sathish Mehata',
-        desc:'lorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum text lorem ipsum text',
+        desc:`Synergizing personal and professional self-development that contributes as a significant value
+        addition to the organizational change/maturity for creating growth opportunities in new and
+        existing business`,
         designition:'O P Manager',
         image:sathish,
         reverse: false
     },
     {
         name:'Sharan',
-        desc:'lorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum text lorem ipsum text',
+        desc:`Synergizing personal and professional self-development that contributes as a significant value
+        addition to the organizational change/maturity for creating growth opportunities in new and
+        existing business`,
         designition:'M I S Manager',
         image:sharan,
         reverse: true
     },
     {
         name:'Hoysala M R',
-        desc:'lorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum text lorem ipsum text',
+        desc:`Our focus is on predicting success on the job rather than describing broad traits like
+        "extroversion". We have researched and developed scales that measure the specific skills and
+        behaviors needed to be successful on the job.`,
         designition:'C E O',
         image:hoysala,
         reverse: false
     },
     {
         name:'Ashwini P',
-        desc:'lorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum textlorem ipsum text lorem ipsum text',
+        desc:`my expertise in the areas of Management practices to play a definitive role in organizational
+        growth.`,
         designition:'HR Manager',
         image:ashwini,
         reverse: true
@@ -66,8 +79,14 @@ Can we make it better?
 <p className=' text-md text-brandColor tracking-wider font-light '>
 We're a creative team passionate about design, focused on building amazing products and brands while turning them into award-winning projects. We can build things from scratch or simply make them look better.
 </p>
+<p className=' text-md text-brandColor tracking-wider font-light '>
+We have been in this industry for a while now, learning and collecting years of experience. All
+that, empowered by our passion and ambition, helps us to create or grow your brand and
+products to their full potential.
+</p>
 <br/>
 <br/>
+
 {
     data.map((item, i)=>{
 

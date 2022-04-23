@@ -44,7 +44,7 @@ export default function index() {
     <br/> <br className='sm:block hidden'/>
     <br className='sm:block hidden'/>
     <Fetured/>
-  <br/>
+  <br className='sm:block hidden'/>
   <br className='sm:block hidden'/>
 
     <ProjectStat/>

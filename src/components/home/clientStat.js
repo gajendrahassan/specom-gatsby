@@ -24,7 +24,7 @@ export default function ClientStat() {
 
   return (
     <div ref={ref} className=' container mx-auto sm:w-[80%] '>
-<h2 className='text-brandColor text-center sm:text-left text-2xl font-bold '>Our Projects </h2>
+<h2 className='text-brandColor text-center sm:text-left text-2xl font-bold '>Our Stats </h2>
 
 <hr className='w-[10%] mx-auto sm:w-full'/>
 <br/>
@@ -44,7 +44,7 @@ export default function ClientStat() {
         duration={2}
         suffix='+'
         />
-                <h2 className='text-2xl text-brandColor'>Happy Clients</h2>
+                <h2 className='text-2xl text-brandColor'>IT Projects</h2>
 </div>
  </div>
 
@@ -63,7 +63,7 @@ export default function ClientStat() {
         suffix='+'
 
         />
-                <h2 className='text-2xl text-brandColor'>Happy Clients</h2>
+                <h2 className='text-2xl text-brandColor'>BPO Clients</h2>
 </div>
   </div>
   <div className='flex justify-center items-center gap-x-5'>
@@ -113,9 +113,9 @@ export default function ClientStat() {
 <br/>
 <br/>
 
-<div className='grid grid-cols-2 gap-x-2 sm:w-[80%]  mx-auto'>
+<div className='sm:grid grid-cols-2 gap-x-2 w-[90%] sm:w-[80%]  mx-auto'>
 
-<div className='col-span-1'>
+<div className='col-span-1 '>
   <img src={fimage} alt="" className="h-[400px] w-full  rounded" />
 </div>
 <div className='relative flex justify-center items-center'>
@@ -127,7 +127,7 @@ export default function ClientStat() {
  <br/>
 
  <Link to="about">
-    <button className='px-5 py-1 rounded-full text-md bg-white text-black'>No More</button>
+    <button className='px-5 py-1 rounded-full text-md bg-white text-black'>Know More</button>
   </Link>
   </h6>
  
@@ -136,8 +136,10 @@ export default function ClientStat() {
 
 </div>
 
-  <br/>
-  <br/><br/>
+  <br className='sm:block hidden'/>
+  <br className='sm:block hidden'/>
+  <br className='sm:block hidden'/>
+
     </div>
   )
 }
