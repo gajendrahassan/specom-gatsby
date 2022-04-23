@@ -2,6 +2,7 @@ import React from 'react';
 
 import Footer from '../global/footer';
 import Navbar from '../global/navbar2';
+import ProjectStat from '../shared/projectStat';
 import ContactForm from './form';
 
 export default function Index() {
@@ -21,6 +22,11 @@ export default function Index() {
   </div>
 </div>
 <br/>
+<br/>
+<br/>
+<br/>
+
+<ProjectStat/>
 <br/>
 <Footer/>
   </main>;

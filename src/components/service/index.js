@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../global/footer';
 import Navbar from '../global/navbar2';
+import ProjectStat from '../shared/projectStat';
 import Slider from './slider';
 
 export default function index() {
@@ -11,6 +12,8 @@ export default function index() {
 <Slider/>
 <br/>
 <br/>
+<br/>
+<ProjectStat/>
 <br/>
 <Footer/>
   </main>;

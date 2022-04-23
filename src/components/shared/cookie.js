@@ -24,8 +24,8 @@ export default function CookieAcept() {
     }, [])
 
   return (
-    <div className={` transition-all ease-in-out w-full z-20 flex justify-center items-center bg-white text-gray-900 p-2 fixed ${view ? 'bottom-[0%]' : 'bottom-[-10%]'} `}>
-<p className='text-center'>We use cookies to improve user experience and analyze website traffic. By clicking “Accept“, you agree to our website's cookie use as described in our Cookie Policy.</p>
+    <div className={` transition-all ease-in-out w-full z-20 flex justify-center items-center bg-white text-gray-900 p-2 fixed ${view ? 'bottom-[0%]' : 'bottom-[-30%]'} `}>
+<p className='text-center text-[10px] sm:text-sm'>We use cookies to improve user experience and analyze website traffic. By clicking “Accept“, you agree to our website's cookie use as described in our Cookie Policy.</p>
 <div className='flex w-[20%]'>
     <button onClick={handleClick} className='px-4 rounded-full cursor-pointer text-white bg-black'>Accept</button>
   &nbsp;    &nbsp;  

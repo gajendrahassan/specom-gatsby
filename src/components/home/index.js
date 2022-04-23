@@ -10,15 +10,18 @@ import MFeaturedworks from './mfeaturework';
 
 import Fetured from './fetured';
 import Header from './header';
-import ProjectStat from './projectStat';
+import ProjectStat from '../shared/projectStat';
 
 export default function index() {
   return <main >
     <Navbar/>
     <Header/>
-    <Clientlogo/>
- 
+
+     <ClientStat/>
+
     <br/>
+    <br/>
+
     <br className='sm:block hidden'/>
     <div className='sm:block hidden'>
     <Featuredworks/>
@@ -32,11 +35,12 @@ export default function index() {
 
     <Experience/>
     <br/>
-    <br/>
+    <br/> 
     <br className='sm:block hidden'/>
     <br className='sm:block hidden'/>
-    <ClientStat/>
     <br/>
+    <Clientlogo/>
+
     <br/> <br className='sm:block hidden'/>
     <br className='sm:block hidden'/>
     <Fetured/>

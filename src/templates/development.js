@@ -6,6 +6,7 @@ import { graphql } from 'gatsby'
 import Feature from './serviceComponents/feature'
 import Navbar2 from "../components/global/navbar2"
 import Footer from "../components/global/footer"
+import ProjectStat from '../components/shared/projectStat'
 
 export default function Development({ data }) {
  
@@ -25,6 +26,7 @@ export default function Development({ data }) {
         </div>
         
         <br/> <br/>
+        <ProjectStat/>
        <Footer/>
     </div>
   )

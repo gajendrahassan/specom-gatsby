@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../global/footer';
 import Navbar from '../global/navbar2';
+import ProjectStat from '../shared/projectStat';
 import CareerForm from './form';
 export default function index() {
   return <main>
@@ -26,6 +27,12 @@ Each employee is critical to the success of a business. Employees are the ones t
   </div>
 </div>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<ProjectStat/>
 <br/>
 <Footer/>
   </main>;

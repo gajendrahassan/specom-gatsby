@@ -9,6 +9,7 @@ import Navbar2 from "../components/global/navbar2"
 import Footer from "../components/global/footer"
 
 import OtherServices from "./serviceComponents/otherServices"
+import ProjectStat from "../components/shared/projectStat"
 const ProjectDetails = ({ data }) => {
   // const { html } = data.markdownRemark
   const { title, bpo_services, featured_data,
@@ -41,6 +42,7 @@ const ProjectDetails = ({ data }) => {
      <br/> <br/>
      {/* <OtherServices/> */}
      <br/> <br/>
+     <ProjectStat/>
        <Footer/>
       </div>
   )

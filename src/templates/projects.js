@@ -9,6 +9,7 @@ import Navbar2 from "../components/global/navbar2"
 import Footer from "../components/global/footer"
 
 import OtherServices from "./serviceComponents/otherServices"
+import ProjectStat from "../components/shared/projectStat"
 const Projects = ({ data }) => {
   const { title, featured_data,
     head_back_image,
@@ -40,6 +41,7 @@ const Projects = ({ data }) => {
      {/* <br/> <br/> */}
      {/* <OtherServices/> */}
      <br/> <br/>
+     <ProjectStat/>
        <Footer/> 
       </div>
   )

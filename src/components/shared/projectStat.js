@@ -1,30 +1,30 @@
 import React from 'react'
-
+import office from '../../images/office/office1.jpeg'
 export default function ProjectStat() {
 
     const statdata = [
         {
-            title:"Web Development",
-            perc:'80%'
+            title:"BPO Service",
+            perc:'93%'
         },
         {
-            title:"Artificial Intelligence",
-            perc:'60%'
+            title:"Software Development",
+            perc:'100%'
         },
         {
-            title:"IOT",
-            perc:'70%'
+            title:"Automation",
+            perc:'100%'
         },
         {
             title:"Import & Export",
-            perc:'90%'
+            perc:'80%'
         },
     ]
 
   return (
     <div className='sm:grid grid-cols-7 gap-x-8 p-4 sm:p-0 container mx-auto w-[95%] sm:w-[80%]'>
         <div className='col-span-3'>
-            <img src="https://cdn.pixabay.com/photo/2021/01/26/09/48/york-minster-5950966_960_720.jpg" className='h-[400px] w-full'/> 
+            <img src={office} className='h-[400px] w-full'/> 
         </div>
         <div className='col-span-4 '>
 <h4 className='text-brandColor font-semibold'>Skills</h4>

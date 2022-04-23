@@ -9,7 +9,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-import fimage from '../../images/illustrate/slides-1 (1).png'
 export default function Clientlogo() {
 
     const logoData = [clogo1,
@@ -68,13 +67,12 @@ const settings = {
   <br/>
   <br/>
   <div className='flex flex-col justify-center items-center'>
-  <Link className='text-[18px] text-center text-brandColor  tracking-[1.5px]' to='/contact'>View Our Projects</Link>
-  <hr className='w-[185px] border-[#bdbaba]'/>
+  <h1 className={`text-white text-center font-bold text-4xl opacity-75 tracking-wider mb-4 `}>Our Clients</h1>
+  <hr className='w-[7%] mx-auto'/>
   </div>
   <br/>
   <br/>
-  <br className='sm:block hidden'/>
-  <br className='sm:block hidden'/>
+
 <div className=' sm:w-[70%] w-[90%] mx-auto'>
 <Slider {...settings}>
 
@@ -91,26 +89,6 @@ logoData.map((item, i) =>{
   </div>
   <br/>
   <br/>
-  <br/>
-  <br/>
-  <br/>
-<div className='grid grid-cols-2 gap-x-2 sm:w-[60%]  mx-auto'>
 
-<div className='col-span-1'>
-  <img src={fimage} alt="" className="h-[400px] w-full object-cover rounded" />
-</div>
-<div className='relative flex justify-center items-center'>
-
-  <h6 className="text-white text-lg sm:w-[90%] mx-auto text-left ">
-
-  Specom believes that the human components are important to any project's success and that it is here that emotional relationships between the company and its personnel are built. 
-  </h6>
-</div>
-
-
-</div>
-
-  <br/>
-  <br/><br/>
   </div>;
 }
