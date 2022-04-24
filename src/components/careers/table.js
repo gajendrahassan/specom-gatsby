@@ -11,7 +11,9 @@ export default function Table() {
         {
 
             title:"Call Center Operations Manager Job Responsibilities",
-           short:`Conduct staff performance reviews, assess needs, cost/benefit analysis, and other operational strategy assessments.`,
+            no_position:'2',
+            experience:'5',
+            short:`Conduct staff performance reviews, assess needs, cost/benefit analysis, and other operational strategy assessments.`,
             desc:`Call Center Operations Manager Job Responsibilities <br/>
             • Conduct staff performance reviews, assess needs, cost/benefit analysis, and other operational strategy assessments. <br/>
             • Establish a high standard for productivity, quality, and customer service as well as define user guidelines. <br/>
@@ -28,7 +30,8 @@ export default function Table() {
 
             title:"HR Manager",
             short:`Degree in Human Resources Management or related discipline`,
-
+            no_position:'1',
+            experience:'5',
             desc:`REQUIREMENTS & QUALIFICATIONS Bachelor’s :<br/>
             • Degree in Human Resources Management or related discipline<br/>
             • 5+ years’ experience in BPO <br/>
@@ -47,6 +50,8 @@ export default function Table() {
    {
 
             title:"Customer Care Executive",
+            no_position:'2',
+            experience:'5',
             short:`Graduated high school, but a bachelor ' s degree in commerce or related fields is preferred.`,
             desc:`REQUIRMENTS:<br/>
             • Graduated high school, but a bachelor ' s degree in commerce or related fields is preferred. <br/>
@@ -82,6 +87,9 @@ export default function Table() {
     <th>Sl No</th>
     <th>Role</th>
     <th>Description</th>
+    <th>experience</th>
+    <th>No. of position</th>
+
   </tr>
 
   {
@@ -106,7 +114,9 @@ data.map((item, i)=>{
 </>
 }
     </td>
-        
+       <td>{item.experience}</td> 
+       <td>{item.no_position}</td> 
+
         </tr>
 })
   }

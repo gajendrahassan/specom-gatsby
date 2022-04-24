@@ -47,7 +47,7 @@ const handleLeave = () =>{
   return (
       <>
       <div className='bg-[#111314] p-2 flex items-center justify-between'>
-      <img src={logo} className='w-[100px]'/>
+      <Link to="/"> <img src={logo} className='w-[100px]'/></Link>
    { open &&   <VscMenu onClick={()=>handleOpen()} className=' font-thin  text-right cursor-pointer text-brandColor text-4xl'/>}
 {  !open &&   <MdClose onClick={()=>handleOpen()} className=' font-thin  text-right cursor-pointer text-brandColor text-4xl'/>
 }
@@ -58,7 +58,7 @@ const handleLeave = () =>{
  
      <div>
      <div className="logo flex justify-between items-center">
-         <img src={logo} className='w-[100px]'/>
+        <Link to="/"> <img src={logo} className='w-[100px]'/></Link>
 
      </div>
      <br/>
@@ -81,8 +81,8 @@ const handleLeave = () =>{
                             {
                              (state == citem?.title) &&  citem?.child?.map((nitem, n)=>{
 
-                                    return <Link to={nitem?.path}>  <li className='px-4 py-1 font-medium text-md nchild cursor-pointer hover:bg-[#000000] hover:text-[#d6d5d5]' key={n}>
-                                       {nitem?.title}</li></Link>
+                                    return   <li className='px-4 py-1 font-medium text-md nchild cursor-pointer hover:bg-[#000000] hover:text-[#d6d5d5]' key={n}>
+                                       <Link to={nitem?.path}>{nitem?.title}</Link></li>
                                 })
                             }
                         </ul>
