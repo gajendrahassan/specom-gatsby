@@ -1,5 +1,5 @@
 import React from 'react'
-import Employe from './employe'
+import Employe from './team2'
 import nethra from '../../images/team/Nethravathi.jpg'
 import sathish from '../../images/team/sathish_m.jpg'
 import sharan from '../../images/team/sharon.jpg'
@@ -32,24 +32,24 @@ const data = [
         reverse: true
 
     },
-    {
-        name:'Sathish Mehata',
-        desc:`Synergizing personal and professional self-development that contributes as a significant value
-        addition to the organizational change/maturity for creating growth opportunities in new and
-        existing business`,
-        designition:'O P Manager',
-        image:sathish,
-        reverse: false
-    },
-    {
-        name:'Sharan',
-        desc:`Synergizing personal and professional self-development that contributes as a significant value
-        addition to the organizational change/maturity for creating growth opportunities in new and
-        existing business`,
-        designition:'M I S Manager',
-        image:sharan,
-        reverse: true
-    },
+    // {
+    //     name:'Sathish Mehata',
+    //     desc:`Synergizing personal and professional self-development that contributes as a significant value
+    //     addition to the organizational change/maturity for creating growth opportunities in new and
+    //     existing business`,
+    //     designition:'O P Manager',
+    //     image:sathish,
+    //     reverse: false
+    // },
+    // {
+    //     name:'Sharan',
+    //     desc:`Synergizing personal and professional self-development that contributes as a significant value
+    //     addition to the organizational change/maturity for creating growth opportunities in new and
+    //     existing business`,
+    //     designition:'M I S Manager',
+    //     image:sharan,
+    //     reverse: true
+    // },
     {
         name:'Hoysala M R',
         desc:`Our focus is on predicting success on the job rather than describing broad traits like
@@ -59,14 +59,14 @@ const data = [
         image:hoysala,
         reverse: false
     },
-    {
-        name:'Ashwini P',
-        desc:`my expertise in the areas of Management practices to play a definitive role in organizational
-        growth.`,
-        designition:'HR Manager',
-        image:ashwini,
-        reverse: true
-    },
+    // {
+    //     name:'Ashwini P',
+    //     desc:`my expertise in the areas of Management practices to play a definitive role in organizational
+    //     growth.`,
+    //     designition:'HR Manager',
+    //     image:ashwini,
+    //     reverse: true
+    // },
 ]
 
   return (
@@ -84,17 +84,11 @@ We have been in this industry for a while now, learning and collecting years of 
 that, empowered by our passion and ambition, helps us to create or grow your brand and
 products to their full potential.
 </p>
-<br/>
-<br/>
 
-{
-    data.map((item, i)=>{
 
-        return <Employe key={i} pimg = {item.image} name={item.name}
-        desc={item.desc} reverse={item.reverse} desgnition={item.designition}
-        />
-    })
-}
+ <Employe empolyee={data} />
+    
+
 
     </div>
   )
