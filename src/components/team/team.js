@@ -84,8 +84,10 @@ We have been in this industry for a while now, learning and collecting years of 
 that, empowered by our passion and ambition, helps us to create or grow your brand and
 products to their full potential.
 </p>
-
-
+<br/>
+<br/>
+<h1 className={`text-white text-center font-bold text-4xl opacity-75 tracking-wider mb-4 `}>Our Team</h1>
+  <hr className='w-[7%] mx-auto'/>
  <Employe empolyee={data} />
     
 

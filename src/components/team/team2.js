@@ -5,16 +5,8 @@ import React from 'react'
 
 const Team2 = ({empolyee}) => {
     return (
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="mx-auto mb-10 lg:max-w-xl sm:text-center">
-          <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-white uppercase rounded-full bg-teal-accent-400">
-            Know Our Team
-          </p>
-          <p className="text-base text-white md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium.
-          </p>
-        </div>
+      <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+       
         <div className="grid gap-10 mx-auto lg:grid-cols-2 lg:max-w-screen-lg">
 {  empolyee &&   empolyee.map((item, i)=>{
 

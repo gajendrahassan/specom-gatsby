@@ -11,8 +11,6 @@ export default function index() {
     <br/>
     <br/>
 <Team/>
-<Team2/>
-<br/>
 <br/>
 <ProjectStat/>
 <br/>
